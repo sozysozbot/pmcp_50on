@@ -50,11 +50,13 @@
         const normalized = form.toLowerCase();
         const spacing = [' ', '　', '·', '・'][document.getElementById("space").selectedIndex];
         console.log(spacing);
-        return [normalized.split(" ").map(to_kana).join(spacing)];
+        return [normalized.split(/[^ABCDEGHIJKLMNOPSTUWXZ]/i).map(to_kana).join(spacing)];
     };
 </script>
 
 <h1>東島通商語をカタカナに変換</h1>
+
+<p><b>句読点やら数詞やらは全部吹き飛ぶので注意</b></p>
 
 <textarea id="input" rows="5" cols="30">cetkaik e paike leti penulleti belpic</textarea><br>
 <button
