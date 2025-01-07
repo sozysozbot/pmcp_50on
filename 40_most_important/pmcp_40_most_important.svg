@@ -42,37 +42,33 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
+    <rect id="background"
        style="fill:#f3f3f3;stroke:none;stroke-width:0.799999;stroke-dasharray:none;fill-opacity:1"
-       id="background"
        width="297"
        height="210"
        x="0"
        y="0" />
-    <text
+    <text id="title"
        xml:space="preserve"
        style="font-size:14.1111px;font-family:'Courier New';-inkscape-font-specification:'Courier New';fill:none;stroke:#595959;stroke-width:0.799999;stroke-dasharray:none"
        x="70.461761"
-       y="15.160024"
-       id="title"><tspan
+       y="15.160024"><tspan
          sodipodi:role="line"
          id="tspan3211"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#000000;stroke:none;stroke-width:0.8"
          x="70.461761"
          y="15.160024">東島通商語　最重要40語</tspan></text>
-    <text
+    <text id="subtitle"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#000000;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
        x="108.952"
-       y="25.231197"
-       id="subtitle"><tspan
+       y="25.231197"><tspan
          sodipodi:role="line"
          id="tspan4091"
          style="font-size:7.05556px;stroke-width:0.8"
          x="108.952"
          y="25.231197">これを押さえれば 7 割制覇！</tspan></text>
-    <g
-       id="leti">
+    <g id="leti">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect234"
@@ -175,8 +171,7 @@
            x="13.704769"
            y="49.883083">～の～</tspan></text>
     </g>
-    <g
-       id="jo">
+    <g id="jo">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect898"
@@ -261,8 +256,7 @@
            x="48.29327"
            y="49.883083">～に·で</tspan></text>
     </g>
-    <g
-       id="e">
+    <g id="e">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect900"
@@ -347,8 +341,7 @@
            x="81.730621"
            y="49.883083">～である</tspan></text>
     </g>
-    <g
-       id="pi">
+    <g id="pi">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect902"
@@ -433,8 +426,7 @@
            x="138.90604"
            y="58.033146">而</tspan></text>
     </g>
-    <g
-       id="ka">
+    <g id="ka">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect904"
@@ -519,8 +511,7 @@
            x="174.45897"
            y="58.177841">此</tspan></text>
     </g>
-    <g
-       id="lata">
+    <g id="lata">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect906"
@@ -605,8 +596,7 @@
            x="209.98158"
            y="58.177841">人</tspan></text>
     </g>
-    <g
-       id="tude">
+    <g id="tude">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect908"
@@ -691,8 +681,7 @@
            x="245.44479"
            y="58.164062">行</tspan></text>
     </g>
-    <g
-       id="kin">
+    <g id="kin">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect910"
@@ -784,8 +773,7 @@
            x="280.96085"
            y="58.164062">値</tspan></text>
     </g>
-    <g
-       id="nole">
+    <g id="nole">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
@@ -870,531 +858,7 @@
            x="20.37196"
            y="85.409561">時</tspan></text>
     </g>
-    <g
-       id="mol">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect9173"
-         width="30.07246"
-         height="29.866283"
-         x="115.70081"
-         y="65.549629" />
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5568"
-         width="12.434658"
-         height="7.1516752"
-         x="124.51999"
-         y="61.881001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="122.53247"
-         y="77.185982"
-         id="text872"><tspan
-           sodipodi:role="line"
-           id="tspan870"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="122.53247"
-           y="77.185982">MOL</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="125.24584"
-         y="67.783501"
-         id="text5566"><tspan
-           sodipodi:role="line"
-           id="tspan5564"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="125.24584"
-           y="67.783501">モㇽ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="116.95348"
-         y="85.409561"
-         id="text8477"><tspan
-           sodipodi:role="line"
-           id="tspan8475"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="116.95348"
-           y="85.409561">～がある</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9203"
-         width="7.5"
-         height="7.4999995"
-         x="115.90414"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="116.87833"
-         y="94.370026"
-         id="text9207"><tspan
-           sodipodi:role="line"
-           id="tspan9205"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="116.87833"
-           y="94.370026">在</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9209"
-         width="7.5"
-         height="7.4999995"
-         x="137.98102"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="138.90604"
-         y="93.559616"
-         id="text9213"><tspan
-           sodipodi:role="line"
-           id="tspan9211"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="138.90604"
-           y="93.559616">在</tspan></text>
-    </g>
-    <g
-       id="at">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect9177"
-         width="30.07246"
-         height="29.866283"
-         x="186.75323"
-         y="65.549629" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="197.71046"
-         y="77.185982"
-         id="text880"><tspan
-           sodipodi:role="line"
-           id="tspan878"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="197.71046"
-           y="77.185982">AT</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect6208"
-         width="12.434658"
-         height="7.1516752"
-         x="195.57214"
-         y="61.881001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="196.53363"
-         y="67.783501"
-         id="text6212"><tspan
-           sodipodi:role="line"
-           id="tspan6210"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="196.53363"
-           y="67.783501">アㇳ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="191.20613"
-         y="85.409561"
-         id="text9221"><tspan
-           sodipodi:role="line"
-           id="tspan9219"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="191.20613"
-           y="85.409561">～と～</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9243"
-         width="7.5"
-         height="7.4999995"
-         x="186.94934"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="187.87712"
-         y="94.372482"
-         id="text9247"><tspan
-           sodipodi:role="line"
-           id="tspan9245"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="187.87712"
-           y="94.372482">加</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9249"
-         width="7.5"
-         height="7.4999995"
-         x="209.02625"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="209.98158"
-         y="93.704315"
-         id="text9253"><tspan
-           sodipodi:role="line"
-           id="tspan9251"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="209.98158"
-           y="93.704315">加</tspan></text>
-    </g>
-    <g
-       id="it">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect9179"
-         width="30.07246"
-         height="29.866283"
-         x="222.27943"
-         y="65.549629" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="233.88545"
-         y="77.185982"
-         id="text884"><tspan
-           sodipodi:role="line"
-           id="tspan882"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="233.88545"
-           y="77.185982">IT</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect6667"
-         width="12.434658"
-         height="7.1516752"
-         x="230.99472"
-         y="61.881001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="231.95621"
-         y="67.783501"
-         id="text6671"><tspan
-           sodipodi:role="line"
-           id="tspan6669"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="231.95621"
-           y="67.783501">イㇳ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="222.87384"
-         y="85.409561"
-         id="text9225"><tspan
-           sodipodi:role="line"
-           id="tspan9223"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="222.87384"
-           y="85.409561">～を·する</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9255"
-         width="7.5"
-         height="7.4999995"
-         x="222.48421"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="223.42178"
-         y="94.37249"
-         id="text9259"><tspan
-           sodipodi:role="line"
-           id="tspan9257"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="223.42178"
-           y="94.37249">為</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9261"
-         width="7.5"
-         height="7.4999995"
-         x="244.56111"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="245.57709"
-         y="93.698814"
-         id="text9265"><tspan
-           sodipodi:role="line"
-           id="tspan9263"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="245.57709"
-           y="93.698814">為</tspan></text>
-    </g>
-    <g
-       id="lukup">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect9181"
-         width="30.07246"
-         height="29.866283"
-         x="257.80591"
-         y="65.549629" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="260.88574"
-         y="77.185982"
-         id="text888"><tspan
-           sodipodi:role="line"
-           id="tspan886"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="260.88574"
-           y="77.185982">LUKUP</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999996;stroke-dasharray:none;stroke-opacity:1"
-         id="rect6861"
-         width="17.473585"
-         height="7.1516752"
-         x="264.10483"
-         y="61.881001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="264.50174"
-         y="67.783501"
-         id="text6865"><tspan
-           sodipodi:role="line"
-           id="tspan6863"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="264.50174"
-           y="67.783501">ルクㇷ゚</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="258.11899"
-         y="85.409561"
-         id="text9241"><tspan
-           sodipodi:role="line"
-           id="tspan9239"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="258.11899"
-           y="85.409561">言葉·話す</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9267"
-         width="7.5"
-         height="7.4999995"
-         x="258.00027"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="258.93323"
-         y="94.389145"
-         id="text9271"><tspan
-           sodipodi:role="line"
-           id="tspan9269"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="258.93323"
-           y="94.389145">言</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9273"
-         width="7.5"
-         height="7.4999995"
-         x="280.07718"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="280.96085"
-         y="93.690536"
-         id="text9277"><tspan
-           sodipodi:role="line"
-           id="tspan9275"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="280.96085"
-           y="93.690536">言</tspan></text>
-    </g>
-    <g
-       id="cet">
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9326"
-         width="7.5"
-         height="7.4999995"
-         x="151.73932"
-         y="87.803207" />
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.399999;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9330"
-         width="14.696463"
-         height="7.4168458"
-         x="166.36365"
-         y="87.803207" />
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9175"
-         width="30.07246"
-         height="29.866283"
-         x="151.22675"
-         y="65.549629" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="159.5894"
-         y="77.185982"
-         id="text876"><tspan
-           sodipodi:role="line"
-           id="tspan874"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="159.5894"
-           y="77.185982">CET</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5973"
-         width="12.434658"
-         height="7.1516752"
-         x="159.94257"
-         y="61.881001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="161.05565"
-         y="67.783501"
-         id="text5977"><tspan
-           sodipodi:role="line"
-           id="tspan5975"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="161.05565"
-           y="67.783501">セㇳ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="152.308"
-         y="85.409561"
-         id="text9217"><tspan
-           sodipodi:role="line"
-           id="tspan9215"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="152.308"
-           y="85.409561">複数·多く</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.399999;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9328"
-         width="14.897824"
-         height="7.4188671"
-         x="151.46584"
-         y="87.803207" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33971px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-         x="152.25516"
-         y="93.740013"
-         id="text9231"><tspan
-           sodipodi:role="line"
-           id="tspan9229"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33971px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="152.25516"
-           y="93.740013">等多増</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.03841px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.800004"
-         x="166.67424"
-         y="93.074516"
-         id="text9237"><tspan
-           sodipodi:role="line"
-           id="tspan9235"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.03841px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.800004"
-           x="166.67424"
-           y="93.074516">等·多·増</tspan></text>
-    </g>
-    <g
-       id="letit">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect9171"
-         width="30.07246"
-         height="29.866283"
-         x="80.174324"
-         y="65.549629" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="85.906303"
-         y="77.185982"
-         id="text868"><tspan
-           sodipodi:role="line"
-           id="tspan866"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="85.906303"
-           y="77.185982">LETIT</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5388"
-         width="23.217222"
-         height="7.1516752"
-         x="83.602219"
-         y="61.881001" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="83.999115"
-         y="67.783501"
-         id="text5392"><tspan
-           sodipodi:role="line"
-           id="tspan5390"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="83.999115"
-           y="67.783501">レティㇳ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="81.19445"
-         y="85.409561"
-         id="text8139"><tspan
-           sodipodi:role="line"
-           id="tspan8137"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="81.19445"
-           y="85.409561">～を持つ</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9191"
-         width="7.5"
-         height="7.4999995"
-         x="80.384499"
-         y="87.71199" />
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9197"
-         width="7.5"
-         height="7.4999995"
-         x="102.46128"
-         y="87.71199" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="103.40422"
-         y="93.644798"
-         id="text9201"><tspan
-           sodipodi:role="line"
-           id="tspan9199"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="103.40422"
-           y="93.644798">手</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="81.456329"
-         y="94.370026"
-         id="text10954"><tspan
-           sodipodi:role="line"
-           id="tspan10952"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="81.456329"
-           y="94.370026">手</tspan></text>
-    </g>
-    <g
-       id="nip">
+    <g id="nip">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect9169"
@@ -1515,8 +979,524 @@
            x="67.858398"
            y="93.713699">無</tspan></text>
     </g>
-    <g
-       id="cene">
+    <g id="letit">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect9171"
+         width="30.07246"
+         height="29.866283"
+         x="80.174324"
+         y="65.549629" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="85.906303"
+         y="77.185982"
+         id="text868"><tspan
+           sodipodi:role="line"
+           id="tspan866"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="85.906303"
+           y="77.185982">LETIT</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5388"
+         width="23.217222"
+         height="7.1516752"
+         x="83.602219"
+         y="61.881001" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="83.999115"
+         y="67.783501"
+         id="text5392"><tspan
+           sodipodi:role="line"
+           id="tspan5390"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="83.999115"
+           y="67.783501">レティㇳ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="81.19445"
+         y="85.409561"
+         id="text8139"><tspan
+           sodipodi:role="line"
+           id="tspan8137"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="81.19445"
+           y="85.409561">～を持つ</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9191"
+         width="7.5"
+         height="7.4999995"
+         x="80.384499"
+         y="87.71199" />
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9197"
+         width="7.5"
+         height="7.4999995"
+         x="102.46128"
+         y="87.71199" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="103.40422"
+         y="93.644798"
+         id="text9201"><tspan
+           sodipodi:role="line"
+           id="tspan9199"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="103.40422"
+           y="93.644798">手</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="81.456329"
+         y="94.370026"
+         id="text10954"><tspan
+           sodipodi:role="line"
+           id="tspan10952"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="81.456329"
+           y="94.370026">手</tspan></text>
+    </g>
+    <g id="mol">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect9173"
+         width="30.07246"
+         height="29.866283"
+         x="115.70081"
+         y="65.549629" />
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5568"
+         width="12.434658"
+         height="7.1516752"
+         x="124.51999"
+         y="61.881001" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="122.53247"
+         y="77.185982"
+         id="text872"><tspan
+           sodipodi:role="line"
+           id="tspan870"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="122.53247"
+           y="77.185982">MOL</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="125.24584"
+         y="67.783501"
+         id="text5566"><tspan
+           sodipodi:role="line"
+           id="tspan5564"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="125.24584"
+           y="67.783501">モㇽ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="116.95348"
+         y="85.409561"
+         id="text8477"><tspan
+           sodipodi:role="line"
+           id="tspan8475"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="116.95348"
+           y="85.409561">～がある</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9203"
+         width="7.5"
+         height="7.4999995"
+         x="115.90414"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="116.87833"
+         y="94.370026"
+         id="text9207"><tspan
+           sodipodi:role="line"
+           id="tspan9205"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="116.87833"
+           y="94.370026">在</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9209"
+         width="7.5"
+         height="7.4999995"
+         x="137.98102"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="138.90604"
+         y="93.559616"
+         id="text9213"><tspan
+           sodipodi:role="line"
+           id="tspan9211"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="138.90604"
+           y="93.559616">在</tspan></text>
+    </g>
+    <g id="cet">
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9326"
+         width="7.5"
+         height="7.4999995"
+         x="151.73932"
+         y="87.803207" />
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.399999;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9330"
+         width="14.696463"
+         height="7.4168458"
+         x="166.36365"
+         y="87.803207" />
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9175"
+         width="30.07246"
+         height="29.866283"
+         x="151.22675"
+         y="65.549629" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="159.5894"
+         y="77.185982"
+         id="text876"><tspan
+           sodipodi:role="line"
+           id="tspan874"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="159.5894"
+           y="77.185982">CET</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect5973"
+         width="12.434658"
+         height="7.1516752"
+         x="159.94257"
+         y="61.881001" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="161.05565"
+         y="67.783501"
+         id="text5977"><tspan
+           sodipodi:role="line"
+           id="tspan5975"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="161.05565"
+           y="67.783501">セㇳ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="152.308"
+         y="85.409561"
+         id="text9217"><tspan
+           sodipodi:role="line"
+           id="tspan9215"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="152.308"
+           y="85.409561">複数·多く</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.399999;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9328"
+         width="14.897824"
+         height="7.4188671"
+         x="151.46584"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33971px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+         x="152.25516"
+         y="93.740013"
+         id="text9231"><tspan
+           sodipodi:role="line"
+           id="tspan9229"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33971px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="152.25516"
+           y="93.740013">等多増</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.03841px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.800004"
+         x="166.67424"
+         y="93.074516"
+         id="text9237"><tspan
+           sodipodi:role="line"
+           id="tspan9235"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.03841px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.800004"
+           x="166.67424"
+           y="93.074516">等·多·増</tspan></text>
+    </g>
+    <g id="at">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect9177"
+         width="30.07246"
+         height="29.866283"
+         x="186.75323"
+         y="65.549629" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="197.71046"
+         y="77.185982"
+         id="text880"><tspan
+           sodipodi:role="line"
+           id="tspan878"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="197.71046"
+           y="77.185982">AT</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6208"
+         width="12.434658"
+         height="7.1516752"
+         x="195.57214"
+         y="61.881001" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="196.53363"
+         y="67.783501"
+         id="text6212"><tspan
+           sodipodi:role="line"
+           id="tspan6210"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="196.53363"
+           y="67.783501">アㇳ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="191.20613"
+         y="85.409561"
+         id="text9221"><tspan
+           sodipodi:role="line"
+           id="tspan9219"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="191.20613"
+           y="85.409561">～と～</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9243"
+         width="7.5"
+         height="7.4999995"
+         x="186.94934"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="187.87712"
+         y="94.372482"
+         id="text9247"><tspan
+           sodipodi:role="line"
+           id="tspan9245"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="187.87712"
+           y="94.372482">加</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9249"
+         width="7.5"
+         height="7.4999995"
+         x="209.02625"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="209.98158"
+         y="93.704315"
+         id="text9253"><tspan
+           sodipodi:role="line"
+           id="tspan9251"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="209.98158"
+           y="93.704315">加</tspan></text>
+    </g>
+    <g id="it">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect9179"
+         width="30.07246"
+         height="29.866283"
+         x="222.27943"
+         y="65.549629" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="233.88545"
+         y="77.185982"
+         id="text884"><tspan
+           sodipodi:role="line"
+           id="tspan882"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="233.88545"
+           y="77.185982">IT</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6667"
+         width="12.434658"
+         height="7.1516752"
+         x="230.99472"
+         y="61.881001" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="231.95621"
+         y="67.783501"
+         id="text6671"><tspan
+           sodipodi:role="line"
+           id="tspan6669"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="231.95621"
+           y="67.783501">イㇳ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="222.87384"
+         y="85.409561"
+         id="text9225"><tspan
+           sodipodi:role="line"
+           id="tspan9223"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="222.87384"
+           y="85.409561">～を·する</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9255"
+         width="7.5"
+         height="7.4999995"
+         x="222.48421"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="223.42178"
+         y="94.37249"
+         id="text9259"><tspan
+           sodipodi:role="line"
+           id="tspan9257"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="223.42178"
+           y="94.37249">為</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9261"
+         width="7.5"
+         height="7.4999995"
+         x="244.56111"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="245.57709"
+         y="93.698814"
+         id="text9265"><tspan
+           sodipodi:role="line"
+           id="tspan9263"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="245.57709"
+           y="93.698814">為</tspan></text>
+    </g>
+    <g id="lukup">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect9181"
+         width="30.07246"
+         height="29.866283"
+         x="257.80591"
+         y="65.549629" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="260.88574"
+         y="77.185982"
+         id="text888"><tspan
+           sodipodi:role="line"
+           id="tspan886"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="260.88574"
+           y="77.185982">LUKUP</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999996;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6861"
+         width="17.473585"
+         height="7.1516752"
+         x="264.10483"
+         y="61.881001" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="264.50174"
+         y="67.783501"
+         id="text6865"><tspan
+           sodipodi:role="line"
+           id="tspan6863"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="264.50174"
+           y="67.783501">ルクㇷ゚</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="258.11899"
+         y="85.409561"
+         id="text9241"><tspan
+           sodipodi:role="line"
+           id="tspan9239"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="258.11899"
+           y="85.409561">言葉·話す</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9267"
+         width="7.5"
+         height="7.4999995"
+         x="258.00027"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="258.93323"
+         y="94.389145"
+         id="text9271"><tspan
+           sodipodi:role="line"
+           id="tspan9269"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="258.93323"
+           y="94.389145">言</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9273"
+         width="7.5"
+         height="7.4999995"
+         x="280.07718"
+         y="87.803207" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="280.96085"
+         y="93.690536"
+         id="text9277"><tspan
+           sodipodi:role="line"
+           id="tspan9275"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="280.96085"
+           y="93.690536">言</tspan></text>
+    </g>
+    <g id="cene">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect914-5"
@@ -1601,8 +1581,7 @@
            x="10.271395"
            y="120.93571">～できる</tspan></text>
     </g>
-    <g
-       id="pan">
+    <g id="pan">
       <rect
          style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.399999;stroke-dasharray:none;stroke-opacity:1"
          id="rect5737"
@@ -1687,8 +1666,7 @@
            x="45.08585"
            y="120.93571">一つ·同じ</tspan></text>
     </g>
-    <g
-       id="o">
+    <g id="o">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect900-5"
@@ -1773,8 +1751,7 @@
            x="84.320602"
            y="120.93571">または</tspan></text>
     </g>
-    <g
-       id="auc">
+    <g id="auc">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect900-5-2"
@@ -1859,8 +1836,7 @@
            x="123.995"
            y="120.93571">全て</tspan></text>
     </g>
-    <g
-       id="mak">
+    <g id="mak">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect914-5-8"
@@ -1945,8 +1921,7 @@
            x="151.45923"
            y="120.93571">二つ·再度</tspan></text>
     </g>
-    <g
-       id="ci">
+    <g id="ci">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect898-94-3"
@@ -2031,8 +2006,7 @@
            x="187.4234"
            y="120.93571">それ・彼</tspan></text>
     </g>
-    <g
-       id="co">
+    <g id="co">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect900-5-4"
@@ -2117,8 +2091,7 @@
            x="226.7375"
            y="120.93571">あなた</tspan></text>
     </g>
-    <g
-       id="et">
+    <g id="et">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect898-94-3-9"
@@ -2203,180 +2176,7 @@
            x="262.4133"
            y="120.93571">他・別</tspan></text>
     </g>
-    <g
-       id="lucit">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect898-9-5-3-9"
-         width="30.07246"
-         height="29.866283"
-         x="80.174599"
-         y="136.60277" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="84.988533"
-         y="148.23813"
-         id="text1488"><tspan
-           sodipodi:role="line"
-           id="tspan1486"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="84.988533"
-           y="148.23813">LUCIT</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9253"
-         width="23.213364"
-         height="7.1516752"
-         x="83.604149"
-         y="132.935" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="84.448357"
-         y="138.83751"
-         id="text9257"><tspan
-           sodipodi:role="line"
-           id="tspan9255"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="84.448357"
-           y="138.83751">ルスィㇳ</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1193"
-         width="7.5"
-         height="7.4999995"
-         x="80.384499"
-         y="158.76601" />
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1195"
-         width="7.5"
-         height="7.4999995"
-         x="102.46128"
-         y="158.76601" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="103.41249"
-         y="164.67538"
-         id="text1199"><tspan
-           sodipodi:role="line"
-           id="tspan1197"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="103.41249"
-           y="164.67538">使</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="81.259361"
-         y="165.32646"
-         id="text1215"><tspan
-           sodipodi:role="line"
-           id="tspan1213"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="81.259361"
-           y="165.32646">使</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="82.045914"
-         y="156.46268"
-         id="text2255"><tspan
-           sodipodi:role="line"
-           id="tspan2253"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="82.045914"
-           y="156.46268">～を使う</tspan></text>
-    </g>
-    <g
-       id="mi">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect898-9-5-3-9-8"
-         width="30.07246"
-         height="29.866283"
-         x="115.70109"
-         y="136.60277" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="126.37169"
-         y="148.23813"
-         id="text1492"><tspan
-           sodipodi:role="line"
-           id="tspan1490"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="126.37169"
-           y="148.23813">MI</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999997;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10711"
-         width="8.1859999"
-         height="7.1516752"
-         x="126.64432"
-         y="132.935" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="127.87927"
-         y="138.83751"
-         id="text10715"><tspan
-           sodipodi:role="line"
-           id="tspan10713"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="127.87927"
-           y="138.83751">ミ</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1201"
-         width="7.5"
-         height="7.4999995"
-         x="115.90414"
-         y="158.85722" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="116.85157"
-         y="165.42847"
-         id="text1205"><tspan
-           sodipodi:role="line"
-           id="tspan1203"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="116.85157"
-           y="165.42847">我</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect1207"
-         width="7.5"
-         height="7.4999995"
-         x="137.98102"
-         y="158.85722" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="138.86607"
-         y="164.71838"
-         id="text1211"><tspan
-           sodipodi:role="line"
-           id="tspan1209"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="138.86607"
-           y="164.71838">我</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="120.70739"
-         y="156.46268"
-         id="text2259"><tspan
-           sodipodi:role="line"
-           id="tspan2257"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="120.70739"
-           y="156.46268">わたし</tspan></text>
-    </g>
-    <g
-       id="delu">
+    <g id="delu">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect914-9"
@@ -2461,8 +2261,7 @@
            x="32.207787"
            y="164.60944">須</tspan></text>
     </g>
-    <g
-       id="kije">
+    <g id="kije">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect898-9-5"
@@ -2576,266 +2375,177 @@
            x="67.822571"
            y="164.65747">来</tspan></text>
     </g>
-    <g
-       id="pac">
+    <g id="lucit">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect898-9-5-3"
+         id="rect898-9-5-3-9"
          width="30.07246"
          height="29.866283"
-         x="186.75323"
+         x="80.174599"
          y="136.60277" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="194.88274"
+         x="84.988533"
          y="148.23813"
-         id="text1500"><tspan
+         id="text1488"><tspan
            sodipodi:role="line"
-           id="tspan1498"
+           id="tspan1486"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="194.88274"
-           y="148.23813">PAC</tspan></text>
+           x="84.988533"
+           y="148.23813">LUCIT</tspan></text>
       <rect
          style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9492"
-         width="12.434658"
+         id="rect9253"
+         width="23.213364"
          height="7.1516752"
-         x="195.57214"
+         x="83.604149"
          y="132.935" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="196.56119"
+         x="84.448357"
          y="138.83751"
-         id="text9496"><tspan
+         id="text9257"><tspan
            sodipodi:role="line"
-           id="tspan9494"
+           id="tspan9255"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="196.56119"
-           y="138.83751">パㇲ</tspan></text>
+           x="84.448357"
+           y="138.83751">ルスィㇳ</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1193"
+         width="7.5"
+         height="7.4999995"
+         x="80.384499"
+         y="158.76601" />
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1195"
+         width="7.5"
+         height="7.4999995"
+         x="102.46128"
+         y="158.76601" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="103.41249"
+         y="164.67538"
+         id="text1199"><tspan
+           sodipodi:role="line"
+           id="tspan1197"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="103.41249"
+           y="164.67538">使</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="81.259361"
+         y="165.32646"
+         id="text1215"><tspan
+           sodipodi:role="line"
+           id="tspan1213"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="81.259361"
+           y="165.32646">使</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="188.30954"
+         x="82.045914"
          y="156.46268"
-         id="text8102"><tspan
+         id="text2255"><tspan
            sodipodi:role="line"
-           id="tspan8100"
+           id="tspan2253"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="188.30954"
-           y="156.46268">～始める</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10106"
-         width="7.5"
-         height="7.4999995"
-         x="186.94934"
-         y="158.85699" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="187.87712"
-         y="165.42627"
-         id="text10110"><tspan
-           sodipodi:role="line"
-           id="tspan10108"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="187.87712"
-           y="165.42627">始</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10112"
-         width="7.5"
-         height="7.4999995"
-         x="209.02625"
-         y="158.85699" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="209.95816"
-         y="164.73744"
-         id="text10116"><tspan
-           sodipodi:role="line"
-           id="tspan10114"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="209.95816"
-           y="164.73744">始</tspan></text>
+           x="82.045914"
+           y="156.46268">～を使う</tspan></text>
     </g>
-    <g
-       id="xep">
+    <g id="mi">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect914-9-4-3"
+         id="rect898-9-5-3-9-8"
          width="30.07246"
          height="29.866283"
-         x="222.27901"
+         x="115.70109"
          y="136.60277" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="230.68289"
+         x="126.37169"
          y="148.23813"
-         id="text1504"><tspan
+         id="text1492"><tspan
            sodipodi:role="line"
-           id="tspan1502"
+           id="tspan1490"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="230.68289"
-           y="148.23813">XEP</tspan></text>
+           x="126.37169"
+           y="148.23813">MI</tspan></text>
       <rect
          style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999997;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9740"
-         width="18.008909"
+         id="rect10711"
+         width="8.1859999"
          height="7.1516752"
-         x="228.2076"
+         x="126.64432"
          y="132.935" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="228.73987"
+         x="127.87927"
          y="138.83751"
-         id="text9744"><tspan
+         id="text10715"><tspan
            sodipodi:role="line"
-           id="tspan9742"
+           id="tspan10713"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="228.73987"
-           y="138.83751">シェㇷ゚</tspan></text>
+           x="127.87927"
+           y="138.83751">ミ</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1201"
+         width="7.5"
+         height="7.4999995"
+         x="115.90414"
+         y="158.85722" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="116.85157"
+         y="165.42847"
+         id="text1205"><tspan
+           sodipodi:role="line"
+           id="tspan1203"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="116.85157"
+           y="165.42847">我</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1207"
+         width="7.5"
+         height="7.4999995"
+         x="137.98102"
+         y="158.85722" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="138.86607"
+         y="164.71838"
+         id="text1211"><tspan
+           sodipodi:role="line"
+           id="tspan1209"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="138.86607"
+           y="164.71838">我</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="227.11011"
+         x="120.70739"
          y="156.46268"
-         id="text8602"><tspan
+         id="text2259"><tspan
            sodipodi:role="line"
-           id="tspan8600"
+           id="tspan2257"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="227.11011"
-           y="156.46268">大きな</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10118"
-         width="7.5"
-         height="7.4999995"
-         x="222.48421"
-         y="158.85699" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="223.42178"
-         y="165.42628"
-         id="text10122"><tspan
-           sodipodi:role="line"
-           id="tspan10120"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="223.42178"
-           y="165.42628">大</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10124"
-         width="7.5"
-         height="7.4999995"
-         x="244.56111"
-         y="158.85699" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="245.57709"
-         y="164.75261"
-         id="text10128"><tspan
-           sodipodi:role="line"
-           id="tspan10126"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="245.57709"
-           y="164.75261">大</tspan></text>
+           x="120.70739"
+           y="156.46268">わたし</tspan></text>
     </g>
-    <g
-       id="cul">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect898-9-5-3-3"
-         width="30.07246"
-         height="29.866283"
-         x="257.80539"
-         y="136.60277" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="265.76953"
-         y="148.23813"
-         id="text1508"><tspan
-           sodipodi:role="line"
-           id="tspan1506"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="265.76953"
-           y="148.23813">CUL</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9498"
-         width="12.434658"
-         height="7.1516752"
-         x="266.6243"
-         y="132.935" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="267.33911"
-         y="138.83751"
-         id="text9502"><tspan
-           sodipodi:role="line"
-           id="tspan9500"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="267.33911"
-           y="138.83751">スㇽ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="265.98038"
-         y="156.46268"
-         id="text9104"><tspan
-           sodipodi:role="line"
-           id="tspan9102"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="265.98038"
-           y="156.46268">方法</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10130"
-         width="7.5"
-         height="7.4999995"
-         x="258.00027"
-         y="158.85699" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="258.93323"
-         y="165.44293"
-         id="text10134"><tspan
-           sodipodi:role="line"
-           id="tspan10132"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="258.93323"
-           y="165.44293">術</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10136"
-         width="7.5"
-         height="7.4999995"
-         x="280.07718"
-         y="158.85699" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="280.96085"
-         y="164.74432"
-         id="text10140"><tspan
-           sodipodi:role="line"
-           id="tspan10138"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="280.96085"
-           y="164.74432">術</tspan></text>
-    </g>
-    <g
-       id="xelit">
+    <g id="xelit">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect914-9-4"
@@ -2920,8 +2630,262 @@
            x="174.45897"
            y="164.75911">目</tspan></text>
     </g>
-    <g
-       id="julo">
+    <g id="pac">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect898-9-5-3"
+         width="30.07246"
+         height="29.866283"
+         x="186.75323"
+         y="136.60277" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="194.88274"
+         y="148.23813"
+         id="text1500"><tspan
+           sodipodi:role="line"
+           id="tspan1498"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="194.88274"
+           y="148.23813">PAC</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9492"
+         width="12.434658"
+         height="7.1516752"
+         x="195.57214"
+         y="132.935" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="196.56119"
+         y="138.83751"
+         id="text9496"><tspan
+           sodipodi:role="line"
+           id="tspan9494"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="196.56119"
+           y="138.83751">パㇲ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="188.30954"
+         y="156.46268"
+         id="text8102"><tspan
+           sodipodi:role="line"
+           id="tspan8100"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="188.30954"
+           y="156.46268">～始める</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10106"
+         width="7.5"
+         height="7.4999995"
+         x="186.94934"
+         y="158.85699" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="187.87712"
+         y="165.42627"
+         id="text10110"><tspan
+           sodipodi:role="line"
+           id="tspan10108"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="187.87712"
+           y="165.42627">始</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10112"
+         width="7.5"
+         height="7.4999995"
+         x="209.02625"
+         y="158.85699" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="209.95816"
+         y="164.73744"
+         id="text10116"><tspan
+           sodipodi:role="line"
+           id="tspan10114"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="209.95816"
+           y="164.73744">始</tspan></text>
+    </g>
+    <g id="xep">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect914-9-4-3"
+         width="30.07246"
+         height="29.866283"
+         x="222.27901"
+         y="136.60277" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="230.68289"
+         y="148.23813"
+         id="text1504"><tspan
+           sodipodi:role="line"
+           id="tspan1502"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="230.68289"
+           y="148.23813">XEP</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999997;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9740"
+         width="18.008909"
+         height="7.1516752"
+         x="228.2076"
+         y="132.935" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="228.73987"
+         y="138.83751"
+         id="text9744"><tspan
+           sodipodi:role="line"
+           id="tspan9742"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="228.73987"
+           y="138.83751">シェㇷ゚</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="227.11011"
+         y="156.46268"
+         id="text8602"><tspan
+           sodipodi:role="line"
+           id="tspan8600"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="227.11011"
+           y="156.46268">大きな</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10118"
+         width="7.5"
+         height="7.4999995"
+         x="222.48421"
+         y="158.85699" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="223.42178"
+         y="165.42628"
+         id="text10122"><tspan
+           sodipodi:role="line"
+           id="tspan10120"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="223.42178"
+           y="165.42628">大</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10124"
+         width="7.5"
+         height="7.4999995"
+         x="244.56111"
+         y="158.85699" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="245.57709"
+         y="164.75261"
+         id="text10128"><tspan
+           sodipodi:role="line"
+           id="tspan10126"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="245.57709"
+           y="164.75261">大</tspan></text>
+    </g>
+    <g id="cul">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect898-9-5-3-3"
+         width="30.07246"
+         height="29.866283"
+         x="257.80539"
+         y="136.60277" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="265.76953"
+         y="148.23813"
+         id="text1508"><tspan
+           sodipodi:role="line"
+           id="tspan1506"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="265.76953"
+           y="148.23813">CUL</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9498"
+         width="12.434658"
+         height="7.1516752"
+         x="266.6243"
+         y="132.935" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="267.33911"
+         y="138.83751"
+         id="text9502"><tspan
+           sodipodi:role="line"
+           id="tspan9500"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="267.33911"
+           y="138.83751">スㇽ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="265.98038"
+         y="156.46268"
+         id="text9104"><tspan
+           sodipodi:role="line"
+           id="tspan9102"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="265.98038"
+           y="156.46268">方法</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10130"
+         width="7.5"
+         height="7.4999995"
+         x="258.00027"
+         y="158.85699" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="258.93323"
+         y="165.44293"
+         id="text10134"><tspan
+           sodipodi:role="line"
+           id="tspan10132"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="258.93323"
+           y="165.44293">術</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect10136"
+         width="7.5"
+         height="7.4999995"
+         x="280.07718"
+         y="158.85699" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="280.96085"
+         y="164.74432"
+         id="text10140"><tspan
+           sodipodi:role="line"
+           id="tspan10138"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="280.96085"
+           y="164.74432">術</tspan></text>
+    </g>
+    <g id="julo">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect914-5-6"
@@ -3006,8 +2970,7 @@
            x="17.232368"
            y="191.98962">こと</tspan></text>
     </g>
-    <g
-       id="kile">
+    <g id="kile">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect2040"
@@ -3121,8 +3084,92 @@
            x="52.970665"
            y="191.98962">来る</tspan></text>
     </g>
-    <g
-       id="lauzait">
+    <g id="nu-">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect2042"
+         width="30.07246"
+         height="29.866283"
+         x="79.968147"
+         y="172.33542" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="88.11142"
+         y="183.7646"
+         id="text1986"><tspan
+           sodipodi:role="line"
+           id="tspan1984"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="88.11142"
+           y="183.7646">NU-</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999997;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11216"
+         width="8.1859999"
+         height="7.1516752"
+         x="90.911377"
+         y="168.46201" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="92.419182"
+         y="174.36452"
+         id="text11220"><tspan
+           sodipodi:role="line"
+           id="tspan11218"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="92.419182"
+           y="174.36452">ヌ</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11196"
+         width="7.5"
+         height="7.4999995"
+         x="80.384499"
+         y="194.293" />
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11198"
+         width="7.5"
+         height="7.4999995"
+         x="102.46128"
+         y="194.293" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="103.41249"
+         y="200.20238"
+         id="text11202"><tspan
+           sodipodi:role="line"
+           id="tspan11200"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="103.41249"
+           y="200.20238">無</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="81.259361"
+         y="200.85345"
+         id="text11218"><tspan
+           sodipodi:role="line"
+           id="tspan11216"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="81.259361"
+           y="200.85345">無</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="81.883255"
+         y="191.98962"
+         id="text4524"><tspan
+           sodipodi:role="line"
+           id="tspan4522"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="81.883255"
+           y="191.98962">～でなく</tspan></text>
+    </g>
+    <g id="lauzait">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect2044"
@@ -3207,8 +3254,7 @@
            x="117.05093"
            y="191.98962">～を作る</tspan></text>
     </g>
-    <g
-       id="poto">
+    <g id="poto">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect6448"
@@ -3293,8 +3339,92 @@
            x="159.36324"
            y="191.98962">場所</tspan></text>
     </g>
-    <g
-       id="panka">
+    <g id="lucuc">
+      <rect
+         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
+         id="rect2048"
+         width="30.07246"
+         height="29.866283"
+         x="186.54706"
+         y="172.33542" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
+         x="189.63956"
+         y="183.7646"
+         id="text6468"><tspan
+           sodipodi:role="line"
+           id="tspan6466"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
+           x="189.63956"
+           y="183.7646">LUCUC</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11732"
+         width="18.051001"
+         height="7.1516752"
+         x="192.66087"
+         y="168.46201" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="193.59317"
+         y="174.36452"
+         id="text11736"><tspan
+           sodipodi:role="line"
+           id="tspan11734"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="193.59317"
+           y="174.36452">ルスㇲ</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11254"
+         width="7.5"
+         height="7.4999995"
+         x="186.94934"
+         y="194.38399" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="187.87712"
+         y="200.95326"
+         id="text11258"><tspan
+           sodipodi:role="line"
+           id="tspan11256"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
+           x="187.87712"
+           y="200.95326">終</tspan></text>
+      <rect
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect11260"
+         width="7.5"
+         height="7.4999995"
+         x="209.02625"
+         y="194.38399" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="209.95816"
+         y="200.26443"
+         id="text11264"><tspan
+           sodipodi:role="line"
+           id="tspan11262"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="209.95816"
+           y="200.26443">終</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
+         x="191.63254"
+         y="191.98962"
+         id="text3925"><tspan
+           sodipodi:role="line"
+           id="tspan3923"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
+           x="191.63254"
+           y="191.98962">終わる</tspan></text>
+    </g>
+    <g id="panka">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect2050"
@@ -3386,8 +3516,7 @@
            x="230.27548"
            y="191.98962">良い</tspan></text>
     </g>
-    <g
-       id="molip">
+    <g id="molip">
       <rect
          style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
          id="rect2052"
@@ -3507,178 +3636,6 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
            x="258.85956"
            y="191.98962">不存在だ</tspan></text>
-    </g>
-    <g
-       id="lucuc">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect2048"
-         width="30.07246"
-         height="29.866283"
-         x="186.54706"
-         y="172.33542" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="189.63956"
-         y="183.7646"
-         id="text6468"><tspan
-           sodipodi:role="line"
-           id="tspan6466"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="189.63956"
-           y="183.7646">LUCUC</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999998;stroke-dasharray:none;stroke-opacity:1"
-         id="rect11732"
-         width="18.051001"
-         height="7.1516752"
-         x="192.66087"
-         y="168.46201" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="193.59317"
-         y="174.36452"
-         id="text11736"><tspan
-           sodipodi:role="line"
-           id="tspan11734"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="193.59317"
-           y="174.36452">ルスㇲ</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect11254"
-         width="7.5"
-         height="7.4999995"
-         x="186.94934"
-         y="194.38399" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="187.87712"
-         y="200.95326"
-         id="text11258"><tspan
-           sodipodi:role="line"
-           id="tspan11256"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="187.87712"
-           y="200.95326">終</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect11260"
-         width="7.5"
-         height="7.4999995"
-         x="209.02625"
-         y="194.38399" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="209.95816"
-         y="200.26443"
-         id="text11264"><tspan
-           sodipodi:role="line"
-           id="tspan11262"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="209.95816"
-           y="200.26443">終</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="191.63254"
-         y="191.98962"
-         id="text3925"><tspan
-           sodipodi:role="line"
-           id="tspan3923"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="191.63254"
-           y="191.98962">終わる</tspan></text>
-    </g>
-    <g
-       id="nu-">
-      <rect
-         style="fill:none;stroke:#595959;stroke-width:0.8;stroke-dasharray:none"
-         id="rect2042"
-         width="30.07246"
-         height="29.866283"
-         x="79.968147"
-         y="172.33542" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.799999;stroke-dasharray:none"
-         x="88.11142"
-         y="183.7646"
-         id="text1986"><tspan
-           sodipodi:role="line"
-           id="tspan1984"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.8"
-           x="88.11142"
-           y="183.7646">NU-</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:none;stroke-width:0.0999997;stroke-dasharray:none;stroke-opacity:1"
-         id="rect11216"
-         width="8.1859999"
-         height="7.1516752"
-         x="90.911377"
-         y="168.46201" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="92.419182"
-         y="174.36452"
-         id="text11220"><tspan
-           sodipodi:role="line"
-           id="tspan11218"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="92.419182"
-           y="174.36452">ヌ</tspan></text>
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect11196"
-         width="7.5"
-         height="7.4999995"
-         x="80.384499"
-         y="194.293" />
-      <rect
-         style="fill:#f3f3f3;fill-opacity:1;stroke:#595959;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect11198"
-         width="7.5"
-         height="7.4999995"
-         x="102.46128"
-         y="194.293" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="103.41249"
-         y="200.20238"
-         id="text11202"><tspan
-           sodipodi:role="line"
-           id="tspan11200"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="103.41249"
-           y="200.20238">無</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="81.259361"
-         y="200.85345"
-         id="text11218"><tspan
-           sodipodi:role="line"
-           id="tspan11216"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:linzklar_rounded;-inkscape-font-specification:linzklar_rounded;stroke-width:0.8"
-           x="81.259361"
-           y="200.85345">無</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Crushed;-inkscape-font-specification:Crushed;fill:#000000;stroke-width:0.799999"
-         x="81.883255"
-         y="191.98962"
-         id="text4524"><tspan
-           sodipodi:role="line"
-           id="tspan4522"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.9px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.8"
-           x="81.883255"
-           y="191.98962">～でなく</tspan></text>
     </g>
   </g>
 </svg>
