@@ -12,7 +12,7 @@ pemecepe lujot を日本語話者に効率的に教えるための 50 音表
 
 東島通商語　最重要 40 語（これを押さえれば 7 割制覇！）
 
-![](./40_most_important/pmcp_40_most_important.png)
+![](./40_most_important/pmcp_40_most_important_latin_alphabet.png)
 
 ## 50 音順辞書（未完成）
 
