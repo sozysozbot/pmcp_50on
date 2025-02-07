@@ -14,12 +14,13 @@ pemecepe lujot を日本語話者に効率的に教えるための 50 音表
 
 ### ペメセペ・ルヨット版
 
-![](./40_most_important/pmcp_40_most_important_pmcp_lujot.png)
+#### 日本語版
 
+![](./40_most_important/char=pmcp,lang=ja.png)
 
 ### ラテン文字版
 
-![](./40_most_important/pmcp_40_most_important_latin_alphabet.png)
+![](./40_most_important/char=latin,lang=ja.png)
 
 ## 50 音順辞書（未完成）
 
