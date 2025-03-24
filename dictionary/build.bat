@@ -1,0 +1,1 @@
+npx vivliostyle build index.html -m
