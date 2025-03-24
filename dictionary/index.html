@@ -1,7 +1,160 @@
 <style>
+    :root {
+        column-count: 2;
+        --scale: 0.95;
+    }
+
+    .entry-word-ja { /* 親見出し（日本語） */
+        font-size: calc(12pt * var(--scale));
+        font-weight: bold;
+        font-family: "Source Han Serif Heavy";
+    }
+
+    .entry-word-pmcp { /* 親見出し（PMCP） */
+        font-size: calc(12pt * var(--scale));
+        font-weight: normal;
+        font-family: "acil_lujot";
+    }
+
+    .entry-word-POS { /* 親見出し（品詞） */
+        font-size: calc(9pt * var(--scale));
+        font-family: "Source Han Serif SemiBold";
+        font-weight: bold;
+    }
+
+    .sub-entry {
+        margin-left: 5mm;
+    }
+
+    .sub-entry-word-ja { /* 子見出し（日本語） */
+        font-size: calc(9pt * var(--scale));
+        font-weight: bold;
+        font-family: "Source Han Serif Heavy";
+    }
+
+    .sub-entry-word-pmcp { /* 子見出し（PMCP） */
+        font-size: calc(9pt * var(--scale));
+        font-weight: normal;
+        font-family: "acil_lujot";
+    }
+
+    .sub-entry-word-POS { /* 子見出し（品詞） */
+        font-size: calc(9pt * var(--scale));
+        font-family: "Source Han Serif SemiBold";
+        font-weight: bold;
+    }
+
+    .sub-entry-definition { /* 子見出しの語釈 */
+        font-size: calc(9pt * var(--scale));
+        font-family: "Source Han Serif";
+        line-height: 1.05;
+    }
+
+
+    .definition { /* 語釈 */
+        font-size: calc(9pt * var(--scale));
+        font-family: "Source Han Serif";
+        margin-left: 5mm;
+        line-height: 1.05;
+    }
+
+    .entry {
+        break-inside: avoid;
+        margin-bottom: 0.5mm;
+    }
+
+    .sub-entry {
+        margin-top: -1mm;
+        line-height: 1;
+    }
+
     @page {
-        size: 125mm 176mm; /* ISO B6 */
+        size: 125mm 176mm /* ISO B6 */;
+        margin: 7% 10% 0% 10%;
     }
 </style>
-<img src="left_page_with_green_border.png"
-    style="position:absolute; left:-12.5mm; top:-17.6mm; width:125mm; height:176mm; z-index:0;" />
+
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドゥカレティ</span> <span class="entry-word-pmcp">dukaleti</span> <span class="entry-word-POS" lang="ja">[数詞]</span><br>
+    <div class="definition" lang="ja">3、3つ、3つの</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドゥシェ</span> <span class="entry-word-pmcp">duxe</span> <span class="entry-word-POS" lang="ja">[名詞]</span><br>
+    <div class="definition" lang="ja">詩、歌、詩歌</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドゥトゥスン</span> <span class="entry-word-pmcp">dutucun</span><br>
+    <div class="sub-entry">
+        <span class="sub-entry-word-ja" lang="ja">ドゥトゥスンレティ</span> <span class="sub-entry-word-pmcp">dutucunleti</span> <span class="sub-entry-word-POS" lang="ja">[修飾詞]</span> <span class="sub-entry-definition" lang="ja">新しい</span>
+    </div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドド</span> <span class="entry-word-pmcp">dodo</span> <span class="entry-word-POS" lang="ja">[名詞]</span><br>
+    <div class="definition" lang="ja">馬</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドㇰ¹</span> <span class="entry-word-pmcp">dok</span><br>
+    <div class="sub-entry">
+        <span class="sub-entry-word-ja" lang="ja">ドキㇳ</span> <span class="sub-entry-word-pmcp">dokit</span> <span class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
+    </div>
+    <div class="definition" lang="ja">～を引く、～を引っ張る</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドㇰ²</span> <span class="entry-word-pmcp">dok</span><br>
+    <div class="sub-entry">
+        <span class="sub-entry-word-ja" lang="ja">ドㇰティㇳ</span> <span class="sub-entry-word-pmcp">doktit</span> <span class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
+    </div>
+    <div class="definition" lang="ja">～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる。</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドㇲネトㇲ</span> <span class="entry-word-pmcp">docnetoc</span> <span class="entry-word-POS" lang="ja">[名詞]</span><br>
+    <div class="definition" lang="ja">酒、アルコール</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドゥカレティ</span> <span class="entry-word-pmcp">dukaleti</span> <span class="entry-word-POS" lang="ja">[数詞]</span><br>
+    <div class="definition" lang="ja">3、3つ、3つの</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドゥシェ</span> <span class="entry-word-pmcp">duxe</span> <span class="entry-word-POS" lang="ja">[名詞]</span><br>
+    <div class="definition" lang="ja">詩、歌、詩歌</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドゥトゥスン</span> <span class="entry-word-pmcp">dutucun</span><br>
+    <div class="sub-entry">
+        <span class="sub-entry-word-ja" lang="ja">ドゥトゥスンレティ</span> <span class="sub-entry-word-pmcp">dutucunleti</span> <span class="sub-entry-word-POS" lang="ja">[修飾詞]</span> <span class="sub-entry-definition" lang="ja">新しい</span>
+    </div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドド</span> <span class="entry-word-pmcp">dodo</span> <span class="entry-word-POS" lang="ja">[名詞]</span><br>
+    <div class="definition" lang="ja">馬</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドㇰ¹</span> <span class="entry-word-pmcp">dok</span><br>
+    <div class="sub-entry">
+        <span class="sub-entry-word-ja" lang="ja">ドキㇳ</span> <span class="sub-entry-word-pmcp">dokit</span> <span class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
+    </div>
+    <div class="definition" lang="ja">～を引く、～を引っ張る</div>
+</div>
+
+<div class="entry">
+    <span class="entry-word-ja" lang="ja">ドㇰ²</span> <span class="entry-word-pmcp">dok</span><br>
+    <div class="sub-entry">
+        <span class="sub-entry-word-ja" lang="ja">ドㇰティㇳ</span> <span class="sub-entry-word-pmcp">doktit</span> <span class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
+    </div>
+    <div class="definition" lang="ja">～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる。</div>
+</div>
+
+
+ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ。
