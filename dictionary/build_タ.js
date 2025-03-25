@@ -33,17 +33,19 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
 `).join('\n')}</style>
 
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドゥカレティ</span> <span class="entry-word-pmcp">dukaleti</span> <span
-        class="entry-word-POS" lang="ja">[数詞]</span><br>
-    <div class="definition" lang="ja">3、3つ、3つの</div>
-</div>
+${simple_entry(
+    "ドゥカレティ",
+    "dukaleti",
+    "数詞",
+    "3、3つ、3つの"
+)}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドゥシェ</span> <span class="entry-word-pmcp">duxe</span> <span
-        class="entry-word-POS" lang="ja">[名詞]</span><br>
-    <div class="definition" lang="ja">詩、歌、詩歌</div>
-</div>
+${simple_entry(
+    "ドゥシェ",
+    "duxe",
+    "名詞",
+    "詩、歌、詩歌"
+)}
 
 <div class="entry">
     <span class="entry-word-ja" lang="ja">ドゥトゥスン</span> <span class="entry-word-pmcp">dutucun</span><br>
@@ -53,11 +55,12 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
     </div>
 </div>
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドド</span> <span class="entry-word-pmcp">dodo</span> <span
-        class="entry-word-POS" lang="ja">[名詞]</span><br>
-    <div class="definition" lang="ja">馬</div>
-</div>
+${simple_entry(
+    "ドド",
+    "dodo",
+    "名詞",
+    "馬"
+)}
 
 <div class="entry">
     <span class="entry-word-ja" lang="ja">ドㇰ¹</span> <span class="entry-word-pmcp">dok</span><br>
@@ -77,23 +80,26 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
     <div class="definition" lang="ja">～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる。</div>
 </div>
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドㇲネトㇲ</span> <span class="entry-word-pmcp">docnetoc</span> <span
-        class="entry-word-POS" lang="ja">[名詞]</span><br>
-    <div class="definition" lang="ja">酒、アルコール</div>
-</div>
+${simple_entry(
+    "ドㇲネトㇲ",
+    "docnetoc",
+    "名詞",
+    "酒、アルコール"
+)}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドゥカレティ</span> <span class="entry-word-pmcp">dukaleti</span> <span
-        class="entry-word-POS" lang="ja">[数詞]</span><br>
-    <div class="definition" lang="ja">3、3つ、3つの</div>
-</div>
+${simple_entry(
+    "ドゥカレティ",
+    "dukaleti",
+    "数詞",
+    "3、3つ、3つの"
+)}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドゥシェ</span> <span class="entry-word-pmcp">duxe</span> <span
-        class="entry-word-POS" lang="ja">[名詞]</span><br>
-    <div class="definition" lang="ja">詩、歌、詩歌</div>
-</div>
+${simple_entry(
+    "ドゥシェ",
+    "duxe",
+    "名詞",
+    "詩、歌、詩歌"
+)}
 
 <div class="entry">
     <span class="entry-word-ja" lang="ja">ドゥトゥスン</span> <span class="entry-word-pmcp">dutucun</span><br>
@@ -103,11 +109,12 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
     </div>
 </div>
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドド</span> <span class="entry-word-pmcp">dodo</span> <span
-        class="entry-word-POS" lang="ja">[名詞]</span><br>
-    <div class="definition" lang="ja">馬</div>
-</div>
+${simple_entry(
+    "ドド",
+    "dodo",
+    "名詞",
+    "馬"
+)}
 
 <div class="entry">
     <span class="entry-word-ja" lang="ja">ドㇰ¹</span> <span class="entry-word-pmcp">dok</span><br>
@@ -132,3 +139,11 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
 
 いろはにほへと、ちりぬるを。わかよたれそ、つねならむ。うゐのおくやま、けふこえて。あさきゆめみし、ゑひもせず。いろはにほへと、ちりぬるを。わかよたれそ、つねならむ。うゐのおくやま、けふこえて。あさきゆめみし、ゑひもせず。いろはにほへと、ちりぬるを。わかよたれそ、つねならむ。うゐのおくやま、けふこえて。あさきゆめみし、ゑひもせず。いろはにほへと、ちりぬるを。わかよたれそ、つねならむ。うゐのおくやま、けふこえて。あさきゆめみし、ゑひもせず。いろはにほへと、ちりぬるを。わかよたれそ、つねならむ。うゐのおくやま、けふこえて。あさきゆめみし、ゑひもせず。いろはにほへと、ちりぬるを。わかよたれそ、つねならむ。うゐのおくやま、けふこえて。あさきゆめみし、ゑひもせず。
 `, { encoding: 'utf-8' });
+
+function simple_entry(word, pmcp, pos, definition) {
+    return `<div class="entry">
+    <span class="entry-word-ja" lang="ja">${word}</span> <span class="entry-word-pmcp">${pmcp}</span> <span
+        class="entry-word-POS" lang="ja">[${pos}]</span><br>
+    <div class="definition" lang="ja">${definition}</div>
+</div>`;
+}
