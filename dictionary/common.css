@@ -1,0 +1,89 @@
+:root {
+    column-count: 2;
+    --scale: 0.95;
+}
+
+.entry-word-ja {
+    /* 親見出し（日本語） */
+    font-size: calc(12pt * var(--scale));
+    font-weight: bold;
+    font-family: "Source Han Serif Heavy";
+}
+
+.entry-word-pmcp {
+    /* 親見出し（PMCP） */
+    font-size: calc(12pt * var(--scale));
+    font-weight: normal;
+    font-family: "acil_lujot";
+}
+
+.entry-word-POS {
+    /* 親見出し（品詞） */
+    font-size: calc(9pt * var(--scale));
+    font-family: "Source Han Serif SemiBold";
+    font-weight: bold;
+}
+
+.sub-entry {
+    margin-left: 5mm;
+}
+
+.sub-entry-word-ja {
+    /* 子見出し（日本語） */
+    font-size: calc(9pt * var(--scale));
+    font-weight: bold;
+    font-family: "Source Han Serif Heavy";
+}
+
+.sub-entry-word-pmcp {
+    /* 子見出し（PMCP） */
+    font-size: calc(9pt * var(--scale));
+    font-weight: normal;
+    font-family: "acil_lujot";
+}
+
+.sub-entry-word-POS {
+    /* 子見出し（品詞） */
+    font-size: calc(9pt * var(--scale));
+    font-family: "Source Han Serif SemiBold";
+    font-weight: bold;
+}
+
+.sub-entry-definition {
+    /* 子見出しの語釈 */
+    font-size: calc(9pt * var(--scale));
+    font-family: "Source Han Serif";
+    line-height: 1.05;
+}
+
+
+.definition {
+    /* 語釈 */
+    font-size: calc(9pt * var(--scale));
+    font-family: "Source Han Serif";
+    margin-left: 5mm;
+    line-height: 1.05;
+}
+
+.entry {
+    break-inside: avoid;
+    margin-bottom: 0.5mm;
+}
+
+.sub-entry {
+    margin-top: -1mm;
+    line-height: 1;
+}
+
+@page {
+    size: 125mm 176mm
+        /* ISO B6 */
+    ;
+    margin: 4% 10% 0% 10%;
+
+    @top-center {
+        content: counter(page);
+        font-family: "Times New Roman";
+        font-size: 14pt;
+    }
+}
