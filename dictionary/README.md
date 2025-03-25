@@ -1,15 +1,6 @@
-## 必要フォント
+# PMCP 50 音順辞書
 
-xedixel, acil_lujot, Source Han Serif Heavy, Source Han Serif SemiBold, Source Han Serif, M+ 1p Heavy
+## 全体の流れ
 
-## 初期設定
-
-```
-npm install @vivliostyle/cli
-```
-
-## PDF を作る
-
-- preview.bat を走らせるとプレビューが表示される
-- build.bat を走らせると PDF がビルドされる
-
+- `node build_タ.js` により、`vivliostyle/タ.html` を作る
+- `cd vivliostyle; npx vivliostyle build -m` により、`nclc-leti-tectelit-leti-lukup-cet.pdf` が出来上がる
