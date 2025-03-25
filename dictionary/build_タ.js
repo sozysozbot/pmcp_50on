@@ -2,13 +2,19 @@ const fs = require('fs');
 
 const 行 = "タ";
 
+const guide_words = {
+    1: "ドゥカレティ",
+    2: "ディンドゥン",
+    3: "テㇲテリㇳ",
+};
+
 fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common.css">
 
 <style>
     @page:left { 
         background-image: url("爪見出し/${行}_left.png");
         background-repeat: no-repeat;
-        @top-left { font-family: "M+ 1p Heavy"; font-size: 14pt; }
+        @top-left { font-family: "M+ 1p Heavy"; font-size: 14pt; } /* 左ページでは左の柱見出しのみ */
         @top-right { font-family: "M+ 1p Heavy"; font-size: 0pt; }
     }
 
@@ -16,24 +22,15 @@ fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common
         background-image: url("爪見出し/${行}_right.png");
         background-repeat: no-repeat;
         @top-left { font-family: "M+ 1p Heavy"; font-size: 0pt; }
-        @top-right { font-family: "M+ 1p Heavy"; font-size: 14pt; }
+        @top-right { font-family: "M+ 1p Heavy"; font-size: 14pt; }  /* 右ページでは右の柱見出しのみ */
     }
-
-    @page:nth(1) {
-        @top-left { content: "ドゥカレティ"; }
-        @top-right { content: "ドゥカレティ"; }
+    
+    /* それぞれのページ指定では柱見出しを両側に指定しておき、上記ルールにより片方だけ潰す */
+${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
+        @top-left { content: "${value}"; }
+        @top-right { content: "${value}"; }
     }
-
-    @page:nth(2) {
-        @top-left { content: "ディンドゥン"; }
-        @top-right { content: "ディンドゥン"; }
-    }
-
-    @page:nth(3) {
-        @top-left { content: "テㇲテリㇳ"; }
-        @top-right { content: "テㇲテリㇳ"; }
-    }
-</style>
+`).join('\n')}</style>
 
 
 <div class="entry">
