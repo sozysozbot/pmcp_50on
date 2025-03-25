@@ -15,7 +15,7 @@ const vivliostyleConfig = {
     //   title: 'おわりに', // title can be overwritten (entry > file),
     //   theme: '@vivliostyle/theme-whatever' // theme can be set individually. default to root 'theme'
     // },
-    'index.html' // html is also acceptable
+    'タ.html' // html is also acceptable
   ], // 'entry' can be 'string' or 'object' if there's only single markdown file
   // entryContext: './manuscripts', // default to '.' (relative to 'vivliostyle.config.js')
   // output: [ // path to generate draft file(s). default to '{title}.pdf'

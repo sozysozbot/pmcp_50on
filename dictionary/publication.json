@@ -1,0 +1,19 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "name": "nclc-leti-tectelit-leti-lukup-cet",
+  "author": "日本机戦連盟",
+  "dateModified": "2025-03-25T00:35:00.053Z",
+  "readingOrder": [
+    {
+      "url": "%E3%82%BF.html",
+      "name": "nclc-leti-tectelit-leti-lukup-cet"
+    }
+  ],
+  "resources": [],
+  "links": []
+}

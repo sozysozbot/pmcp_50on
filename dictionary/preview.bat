@@ -1,1 +1,1 @@
-npx vivliostyle preview index.html -m
+npx vivliostyle preview -m
