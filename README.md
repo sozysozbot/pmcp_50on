@@ -24,4 +24,10 @@ pemecepe lujot を日本語話者に効率的に教えるための 50 音表
 
 ## 50 音順辞書（未完成）
 
-[大まかなデザイン](./dictionary/dictionary-component-font-spec.md)
+### 大まかなデザイン
+
+[大まかなデザイン](./dictionary_planning/dictionary-component-font-spec.md)
+
+### 実装
+
+Vivliostyle で CSS 組版をする。作業フォルダは `dictionary/`
