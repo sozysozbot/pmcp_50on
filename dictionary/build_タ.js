@@ -47,13 +47,15 @@ ${simple_entry(
     "詩、歌、詩歌"
 )}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドゥトゥスン</span> <span class="entry-word-pmcp">dutucun</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-ja" lang="ja">ドゥトゥスンレティ</span> <span class="sub-entry-word-pmcp">dutucunleti</span>
-        <span class="sub-entry-word-POS" lang="ja">[修飾詞]</span> <span class="sub-entry-definition" lang="ja">新しい</span>
-    </div>
-</div>
+${entry_with_subentry(
+    "ドゥトゥスン",
+    "dutucun",
+    "ドゥトゥスンレティ",
+    "dutucunleti",
+    "修飾詞",
+    "新しい",
+    false
+)}
 
 ${simple_entry(
     "ドド",
@@ -62,23 +64,23 @@ ${simple_entry(
     "馬"
 )}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドㇰ¹</span> <span class="entry-word-pmcp">dok</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-ja" lang="ja">ドキㇳ</span> <span class="sub-entry-word-pmcp">dokit</span> <span
-            class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
-    </div>
-    <div class="definition" lang="ja">～を引く、～を引っ張る</div>
-</div>
+${entry_with_subentry(
+    "ドㇰ¹",
+    "dok",
+    "ドキㇳ",
+    "dokit",
+    "他動詞",
+    "～を引く、～を引っ張る"
+)}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドㇰ²</span> <span class="entry-word-pmcp">dok</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-ja" lang="ja">ドㇰティㇳ</span> <span class="sub-entry-word-pmcp">doktit</span> <span
-            class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
-    </div>
-    <div class="definition" lang="ja">～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる。</div>
-</div>
+${entry_with_subentry(
+    "ドㇰ²",
+    "dok",
+    "ドㇰティㇳ",
+    "doktit",
+    "他動詞",
+    "～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる"
+)}
 
 ${simple_entry(
     "ドㇲネトㇲ",
@@ -101,13 +103,15 @@ ${simple_entry(
     "詩、歌、詩歌"
 )}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドゥトゥスン</span> <span class="entry-word-pmcp">dutucun</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-ja" lang="ja">ドゥトゥスンレティ</span> <span class="sub-entry-word-pmcp">dutucunleti</span>
-        <span class="sub-entry-word-POS" lang="ja">[修飾詞]</span> <span class="sub-entry-definition" lang="ja">新しい</span>
-    </div>
-</div>
+${entry_with_subentry(
+    "ドゥトゥスン",
+    "dutucun",
+    "ドゥトゥスンレティ",
+    "dutucunleti",
+    "修飾詞",
+    "新しい",
+    false
+)}
 
 ${simple_entry(
     "ドド",
@@ -116,23 +120,23 @@ ${simple_entry(
     "馬"
 )}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドㇰ¹</span> <span class="entry-word-pmcp">dok</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-ja" lang="ja">ドキㇳ</span> <span class="sub-entry-word-pmcp">dokit</span> <span
-            class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
-    </div>
-    <div class="definition" lang="ja">～を引く、～を引っ張る</div>
-</div>
+${entry_with_subentry(
+    "ドㇰ¹",
+    "dok",
+    "ドキㇳ",
+    "dokit",
+    "他動詞",
+    "～を引く、～を引っ張る"
+)}
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ドㇰ²</span> <span class="entry-word-pmcp">dok</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-ja" lang="ja">ドㇰティㇳ</span> <span class="sub-entry-word-pmcp">doktit</span> <span
-            class="sub-entry-word-POS" lang="ja">[他動詞]</span><br>
-    </div>
-    <div class="definition" lang="ja">～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる。</div>
-</div>
+${entry_with_subentry(
+    "ドㇰ²",
+    "dok",
+    "ドㇰティㇳ",
+    "doktit",
+    "他動詞",
+    "～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる"
+)}
 
 
 ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ。
@@ -145,5 +149,15 @@ function simple_entry(word, pmcp, pos, definition) {
     <span class="entry-word-ja" lang="ja">${word}</span> <span class="entry-word-pmcp">${pmcp}</span> <span
         class="entry-word-POS" lang="ja">[${pos}]</span><br>
     <div class="definition" lang="ja">${definition}</div>
+</div>`;
+}
+
+function entry_with_subentry(word, pmcp, subentry_word, subentry_pmcp, subentry_pos, subentry_definition, line_break_after_pos = true) {
+    return `<div class="entry">
+    <span class="entry-word-ja" lang="ja">${word}</span> <span class="entry-word-pmcp">${pmcp}</span><br>
+    <div class="sub-entry">
+        <span class="sub-entry-word-ja" lang="ja">${subentry_word}</span> <span class="sub-entry-word-pmcp">${subentry_pmcp}</span>
+        <span class="sub-entry-word-POS" lang="ja">[${subentry_pos}]</span>${line_break_after_pos ? '<br>' : ' '}<span class="sub-entry-definition" lang="ja">${subentry_definition}</span>
+    </div>
 </div>`;
 }
