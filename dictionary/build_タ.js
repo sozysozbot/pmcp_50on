@@ -8,6 +8,21 @@ const guide_words = {
     3: "テㇲテリㇳ",
 };
 
+const entries_tsv =
+    fs.readFileSync("entries.tsv", { encoding: 'utf-8' })
+        .split(/\r?\n/).slice(1);
+
+const entries = entries_tsv
+    .map(entry => entry.split('\t'))
+    .map(([
+        entry_word_ja, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos]) => {
+        if (sub_entry_word_ja === "" && sub_entry_word_pmcp === "") {
+            return simple_entry(entry_word_ja, entry_word_pmcp, entry_pos, entry_definition);
+        } else {
+            return entry_with_subentry(entry_word_ja, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos !== "false");
+        }
+    });
+
 fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common.css">
 
 <style>
@@ -33,110 +48,7 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
 `).join('\n')}</style>
 
 
-${simple_entry(
-    "ドゥカレティ",
-    "dukaleti",
-    "数詞",
-    "3、3つ、3つの"
-)}
-
-${simple_entry(
-    "ドゥシェ",
-    "duxe",
-    "名詞",
-    "詩、歌、詩歌"
-)}
-
-${entry_with_subentry(
-    "ドゥトゥスン",
-    "dutucun",
-    "ドゥトゥスンレティ",
-    "dutucunleti",
-    "修飾詞",
-    "新しい",
-    false
-)}
-
-${simple_entry(
-    "ドド",
-    "dodo",
-    "名詞",
-    "馬"
-)}
-
-${entry_with_subentry(
-    "ドㇰ¹",
-    "dok",
-    "ドキㇳ",
-    "dokit",
-    "他動詞",
-    "～を引く、～を引っ張る"
-)}
-
-${entry_with_subentry(
-    "ドㇰ²",
-    "dok",
-    "ドㇰティㇳ",
-    "doktit",
-    "他動詞",
-    "～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる"
-)}
-
-${simple_entry(
-    "ドㇲネトㇲ",
-    "docnetoc",
-    "名詞",
-    "酒、アルコール"
-)}
-
-${simple_entry(
-    "ドゥカレティ",
-    "dukaleti",
-    "数詞",
-    "3、3つ、3つの"
-)}
-
-${simple_entry(
-    "ドゥシェ",
-    "duxe",
-    "名詞",
-    "詩、歌、詩歌"
-)}
-
-${entry_with_subentry(
-    "ドゥトゥスン",
-    "dutucun",
-    "ドゥトゥスンレティ",
-    "dutucunleti",
-    "修飾詞",
-    "新しい",
-    false
-)}
-
-${simple_entry(
-    "ドド",
-    "dodo",
-    "名詞",
-    "馬"
-)}
-
-${entry_with_subentry(
-    "ドㇰ¹",
-    "dok",
-    "ドキㇳ",
-    "dokit",
-    "他動詞",
-    "～を引く、～を引っ張る"
-)}
-
-${entry_with_subentry(
-    "ドㇰ²",
-    "dok",
-    "ドㇰティㇳ",
-    "doktit",
-    "他動詞",
-    "～を叩く、～を殴る、～を打つ、～を打ち付ける、(投げ棒を)投げる"
-)}
+${entries.join('\n\n')}
 
 
 ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ、ああああああああああああああああああああああ。
