@@ -1,39 +1,37 @@
 const fs = require('fs');
-fs.writeFileSync('vivliostyle/タ.html', `<link rel="stylesheet" href="common.css">
+
+const 行 = "タ";
+
+fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common.css">
 
 <style>
     @page:left { 
-        background-image: url("爪見出し/タ_left.png");
+        background-image: url("爪見出し/${行}_left.png");
         background-repeat: no-repeat;
+        @top-left { font-family: "M+ 1p Heavy"; font-size: 14pt; }
+        @top-right { font-family: "M+ 1p Heavy"; font-size: 0pt; }
     }
 
     @page:right { 
-        background-image: url("爪見出し/タ_right.png");
+        background-image: url("爪見出し/${行}_right.png");
         background-repeat: no-repeat;
+        @top-left { font-family: "M+ 1p Heavy"; font-size: 0pt; }
+        @top-right { font-family: "M+ 1p Heavy"; font-size: 14pt; }
     }
 
     @page:nth(1) {
-        @top-left {
-            content: "ドゥカレティ";
-            font-family: "M+ 1p Heavy";
-            font-size: 14pt;
-        }
+        @top-left { content: "ドゥカレティ"; }
+        @top-right { content: "ドゥカレティ"; }
     }
 
     @page:nth(2) {
-        @top-right {
-            content: "ディンドゥン";
-            font-family: "M+ 1p Heavy";
-            font-size: 14pt;
-        }
+        @top-left { content: "ディンドゥン"; }
+        @top-right { content: "ディンドゥン"; }
     }
 
     @page:nth(3) {
-        @top-left {
-            content: "テㇲテリㇳ";
-            font-family: "M+ 1p Heavy";
-            font-size: 14pt;
-        }
+        @top-left { content: "テㇲテリㇳ"; }
+        @top-right { content: "テㇲテリㇳ"; }
     }
 </style>
 
