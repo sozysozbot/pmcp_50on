@@ -16,11 +16,11 @@ const entries_tsv =
 const entries = entries_tsv
     .map(entry => entry.split('\t'))
     .map(([
-        entry_word_ja, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos]) => {
+        entry_word_ja, distinguisher, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos]) => {
         if (sub_entry_word_ja === "" && sub_entry_word_pmcp === "") {
-            return simple_entry(entry_word_ja, entry_word_pmcp, entry_pos, entry_definition);
+            return simple_entry(entry_word_ja, distinguisher, entry_word_pmcp, entry_pos, entry_definition);
         } else {
-            return entry_with_subentry(entry_word_ja, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos !== "false");
+            return entry_with_subentry(entry_word_ja, distinguisher, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos !== "false");
         }
     });
 
@@ -52,17 +52,17 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
 ${entries.join('\n\n')}
 `, { encoding: 'utf-8' });
 
-function simple_entry(word, pmcp, pos, definition) {
+function simple_entry(word, distinguisher, pmcp, pos, definition) {
     return `<div class="entry">
-    <span class="entry-word-ja" lang="ja">${word}</span> <span class="entry-word-pmcp">${pmcp}</span> <span
+    <span class="entry-word-ja" lang="ja">${word}${distinguisher}</span> <span class="entry-word-pmcp">${pmcp}</span> <span
         class="entry-word-POS" lang="ja">[${pos}]</span><br>
     <div class="definition" lang="ja">${definition}</div>
 </div>`;
 }
 
-function entry_with_subentry(word, pmcp, subentry_word, subentry_pmcp, subentry_pos, subentry_definition, line_break_after_pos = true) {
+function entry_with_subentry(word, distinguisher, pmcp, subentry_word, subentry_pmcp, subentry_pos, subentry_definition, line_break_after_pos = true) {
     return `<div class="entry">
-    <span class="entry-word-ja" lang="ja">${word}</span> <span class="entry-word-pmcp">${pmcp}</span><br>
+    <span class="entry-word-ja" lang="ja">${word}${distinguisher}</span> <span class="entry-word-pmcp">${pmcp}</span><br>
     <div class="sub-entry">
         <span class="sub-entry-word-ja" lang="ja">${subentry_word}</span> <span class="sub-entry-word-pmcp">${subentry_pmcp}</span>
         <span class="sub-entry-word-POS" lang="ja">[${subentry_pos}]</span>${line_break_after_pos ? '<br>' : ' '}<span class="sub-entry-definition" lang="ja">${subentry_definition}</span>
