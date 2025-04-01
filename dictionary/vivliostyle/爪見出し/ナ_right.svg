@@ -28,11 +28,11 @@
      inkscape:document-units="mm"
      inkscape:zoom="3.0727746"
      inkscape:cx="506.54545"
-     inkscape:cy="255.63216"
+     inkscape:cy="255.9576"
      inkscape:window-width="1280"
      inkscape:window-height="729"
      inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-y="1072"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
   <defs
@@ -355,7 +355,8 @@
      d="M 10.354167,7.0005 H 115.35417"
      id="path16" />
   <g
-     id="g1">
+     id="g1"
+     transform="translate(-0.25438309)">
     <rect
        style="fill:#000000;stroke:none;stroke-width:0.199521;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect306"
