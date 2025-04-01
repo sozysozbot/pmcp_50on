@@ -9,6 +9,9 @@ const guide_words = {
     4: "ドゥトゥスン"
 };
 
+const pos_list = fs.readFileSync("pos_list.txt", { encoding: 'utf-8' })
+    .split(/\r?\n/);
+
 const entries_array =
     fs.readFileSync("EDIT_ME.tsv", { encoding: 'utf-8' })
         .split(/\r?\n/).slice(1)
@@ -136,6 +139,7 @@ ${entries.join('\n\n')}
 `, { encoding: 'utf-8' });
 
 function simple_entry(word, distinguisher, pmcp, pos, definition) {
+    if (!pos_list.includes(pos)) { console.log(`Warning: ${pos} is not in pos_list.txt \n\t\t(Encountered in ${word}${distinguisher}, ${pmcp})`); }
     return `<div class="entry">
     <span class="entry-word-ja" lang="ja">${word}${distinguisher}</span> <span class="entry-word-pmcp">${pmcp}</span> <span
         class="entry-word-POS" lang="ja">[${pos}]</span><br>
@@ -144,6 +148,7 @@ function simple_entry(word, distinguisher, pmcp, pos, definition) {
 }
 
 function entry_with_single_subentry(word, distinguisher, pmcp, subentry, definition, line_break_after_pos = true) {
+    if (!pos_list.includes(subentry.pos)) { console.log(`Warning: ${subentry.pos} is not in pos_list.txt \n\t\t(Encountered in ${word}${distinguisher}, ${pmcp} --> ${subentry.word}, ${subentry.pmcp})`); }
     return `<div class="entry">
     <span class="entry-word-ja" lang="ja">${word}${distinguisher}</span> <span class="entry-word-pmcp">${pmcp}</span><br>
     <div class="sub-entry">
@@ -158,6 +163,10 @@ function entry_with_multiple_subentries(word, distinguisher, pmcp, subentries) {
     <span class="entry-word-ja" lang="ja">${word}${distinguisher}</span> <span class="entry-word-pmcp">${pmcp}</span><br>
     <div class="sub-entry">
 ${subentries.map(subentry => {
+        if (!pos_list.includes(subentry.pos)) {
+            console.log(`Warning: ${subentry.pos} is not in pos_list.txt`);
+            console.log(`\t\t(Encountered in ${word}${distinguisher}, ${pmcp} --> ${subentry.word}, ${subentry.pmcp})`);
+        }
         if (subentry.word === "" && subentry.pmcp === "") {
             /* 直前の見出し語にぶら下がり、音写と PMCP の欄なしで掲載 */
             return `        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${subentry.definition}</span><br>`;
