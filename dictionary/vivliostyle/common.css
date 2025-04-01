@@ -80,6 +80,11 @@
     line-height: 1;
 }
 
+header {
+    float: block-start;
+    float-reference: page;
+}
+
 @page {
     size: 125mm 176mm
         /* ISO B6 */
