@@ -13,7 +13,7 @@ const entries_array =
     fs.readFileSync("EDIT_ME.tsv", { encoding: 'utf-8' })
         .split(/\r?\n/).slice(1)
         .map((row) => row.split('\t'))
-        ;
+    ;
 
 /** 
 Replace the sequence of entries
@@ -49,7 +49,9 @@ function group_asterisk(entries_) {
                     pmcp: entry[2],
                     subentries: [entry.slice(3)]
                 };
-            } else if (current_grouping.word === entry[0]) {
+            } else if (current_grouping.word === entry[0]
+                && current_grouping.distinguisher === entry[1].slice(1) // Remove the asterisk
+                && current_grouping.pmcp === entry[2]) {
                 // Add to the current grouping
                 current_grouping.subentries.push(entry.slice(3));
             } else {
