@@ -167,7 +167,7 @@ function build(行) {
 
 
     const grouped = group_asterisk(entries_array);
-    fs.writeFileSync(`__debug__grouped.jsonl`, grouped.map(JSON.stringify).join('\n'), { encoding: 'utf-8' });
+    fs.writeFileSync(`__debug__grouped_${行}.jsonl`, grouped.map(JSON.stringify).join('\n'), { encoding: 'utf-8' });
 
     const entries = grouped
         .map((row) => {
@@ -221,3 +221,4 @@ ${entries.join('\n\n')}
 }
 
 build("タ");
+build("ナ");
