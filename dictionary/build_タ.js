@@ -91,7 +91,7 @@ function group_asterisk(entries_) {
 function 墨付きカッコ書き換え(input_string) {
     console.log(`墨付きカッコ書き換え("${input_string}")`);
 
-    const images = [... `{${input_string}}`].map((char) => `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`).join("");
+    const images = [... `(${input_string})`].map((char) => `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`).join("");
     return ` ${images}【${input_string}】`;
 }
 
@@ -185,12 +185,13 @@ ${subentries.map(subentry => {
             console.log(`Warning: ${subentry.pos} is not in pos_list.txt`);
             console.log(`\t\t(Encountered in ${word}${distinguisher}, ${pmcp} --> ${subentry.word}, ${subentry.pmcp})`);
         }
-        if (subentry.word === "" && subentry.pmcp === "") {
-            /* 直前の見出し語にぶら下がり、音写と PMCP の欄なしで掲載 */
-            return `        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${subentry.definition}</span><br>`;
-        }
 
         const definition_ = subentry.definition.replaceAll(/【([^【】]+)】/g, (_, p1) => 墨付きカッコ書き換え(p1));
+        
+        if (subentry.word === "" && subentry.pmcp === "") {
+            /* 直前の見出し語にぶら下がり、音写と PMCP の欄なしで掲載 */
+            return `        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${definition_}</span><br>`;
+        }
 
         return `        <span class="sub-entry-word-ja" lang="ja">${subentry.word}</span> <span class="sub-entry-word-pmcp">${subentry.pmcp}</span>
         <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${definition_}</span><br>`;
