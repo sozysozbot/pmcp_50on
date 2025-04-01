@@ -214,6 +214,8 @@ ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
     }
 `).join('\n')}</style>
 
+<header><img src="./${行}_見出し.svg" style="width: 100%"></header>
+
 
 ${entries.join('\n\n')}
 `, { encoding: 'utf-8' });
