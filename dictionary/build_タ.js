@@ -200,7 +200,7 @@ function group_asterisk(entries_) {
 }
 
 const grouped = group_asterisk(entries_array);
-fs.writeFileSync(`__debug__grouped.json`, JSON.stringify(grouped), { encoding: 'utf-8' });
+fs.writeFileSync(`__debug__grouped.jsonl`, grouped.map(JSON.stringify).join('\n'), { encoding: 'utf-8' });
 
 const entries = grouped
     .map((row) => {
