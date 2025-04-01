@@ -1,6 +1,6 @@
 :root {
     column-count: 2;
-    --scale: 0.95;
+    --scale: 0.98;
 }
 
 .entry-word-ja {
@@ -86,8 +86,8 @@ header {
 }
 
 @page {
-    size: 125mm 176mm
-        /* ISO B6 */
+    size: 128mm 182mm
+        /* JIS B6 */
     ;
     margin: 4% 10% 0% 10%;
 

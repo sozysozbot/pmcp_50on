@@ -26,13 +26,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="3.0727746"
-     inkscape:cx="44.422393"
-     inkscape:cy="245.86899"
+     inkscape:zoom="4.3455595"
+     inkscape:cx="33.942695"
+     inkscape:cy="260.84098"
      inkscape:window-width="1280"
      inkscape:window-height="729"
      inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-y="1072"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
   <defs
@@ -355,10 +355,11 @@
      d="M 10.354167,7.0005 H 115.35417"
      id="path16" />
   <g
-     id="g1">
+     id="g2"
+     transform="translate(0,15.7046)">
     <rect
        style="fill:#000000;stroke:none;stroke-width:0.199521;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect306"
+       id="rect1"
        width="9.9002113"
        height="15.7046"
        x="0"
@@ -368,8 +369,8 @@
        style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.98031px;line-height:0.5;font-family:'M+ 1p';-inkscape-font-specification:'M+ 1p Heavy';letter-spacing:0px;fill:#ffffff;stroke:none;stroke-width:1.19215;stroke-opacity:1;paint-order:fill markers stroke"
        x="1.5681455"
        y="62.275398"
-       id="text310"><tspan
-         id="tspan310"
+       id="text1"><tspan
+         id="tspan1"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'M+ 1p';-inkscape-font-specification:'M+ 1p Heavy';fill:#ffffff;stroke-width:1.19215"
          x="1.5681455"
          y="62.275398">ナ</tspan></text>
@@ -378,8 +379,8 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0.5;font-family:xedixel;-inkscape-font-specification:xedixel;letter-spacing:0px;fill:#ffffff;stroke:none;stroke-width:0.723;stroke-opacity:1;paint-order:fill markers stroke"
        x="3.6102569"
        y="67.294762"
-       id="text311"><tspan
-         id="tspan311"
+       id="text2"><tspan
+         id="tspan2"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:xedixel;-inkscape-font-specification:xedixel;stroke-width:0.723"
          x="3.6102569"
          y="67.294762">n</tspan></text>

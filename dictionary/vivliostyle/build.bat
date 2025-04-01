@@ -1,1 +1,1 @@
-npx vivliostyle build -m
+npx vivliostyle build
