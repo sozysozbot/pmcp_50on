@@ -1,23 +1,5 @@
 const fs = require('fs');
 
-const 行 = "タ";
-
-const guide_words = {
-    1: "ディシェㇲ",
-    2: "ディㇲティㇲ",
-    3: "トゥデキレ",
-    4: "ドゥトゥスン"
-};
-
-const pos_list = fs.readFileSync("pos_list.txt", { encoding: 'utf-8' })
-    .split(/\r?\n/);
-
-const entries_array =
-    fs.readFileSync("EDIT_ME.tsv", { encoding: 'utf-8' })
-        .split(/\r?\n/).slice(1)
-        .map((row) => row.split('\t'))
-    ;
-
 /** 
 Replace the sequence of entries
 
@@ -112,58 +94,6 @@ function get_linzklar_rounded(char) {
     return `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`;
 }
 
-const grouped = group_asterisk(entries_array);
-fs.writeFileSync(`__debug__grouped.jsonl`, grouped.map(JSON.stringify).join('\n'), { encoding: 'utf-8' });
-
-const entries = grouped
-    .map((row) => {
-        if (!row.multiple) {
-            const [
-                entry_word_ja, distinguisher, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos] = row;
-            if (sub_entry_word_ja === "" && sub_entry_word_pmcp === "") {
-                return simple_entry(entry_word_ja, distinguisher, entry_word_pmcp, entry_pos, entry_definition);
-            } else {
-                return entry_with_single_subentry(entry_word_ja, distinguisher, entry_word_pmcp, { word: sub_entry_word_ja, pmcp: sub_entry_word_pmcp, pos: entry_pos }, entry_definition, line_break_after_pos !== "false");
-            }
-        } else {
-            const { word, distinguisher, pmcp, subentries } = row;
-            return entry_with_multiple_subentries(word, distinguisher, pmcp, subentries.map(subentry => {
-                const [subentry_word_ja, subentry_word_pmcp, subentry_pos, subentry_definition] = subentry;
-                return { word: subentry_word_ja, pmcp: subentry_word_pmcp, pos: subentry_pos, definition: subentry_definition };
-            }));
-        }
-    });
-
-fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common.css">
-
-<style>
-    @page:left { 
-        background-image: url("爪見出し/${行}_left.png");
-        background-size: 472px 665px;
-        background-repeat: no-repeat;
-        @top-left { font-family: "M+ 1p Heavy"; font-size: 14pt; } /* 左ページでは左の柱見出しのみ */
-        @top-right { font-family: "M+ 1p Heavy"; font-size: 0pt; }
-    }
-
-    @page:right { 
-        background-image: url("爪見出し/${行}_right.png");
-        background-size: 472px 665px;
-        background-repeat: no-repeat;
-        @top-left { font-family: "M+ 1p Heavy"; font-size: 0pt; }
-        @top-right { font-family: "M+ 1p Heavy"; font-size: 14pt; }  /* 右ページでは右の柱見出しのみ */
-    }
-    
-    /* それぞれのページ指定では柱見出しを両側に指定しておき、上記ルールにより片方だけ潰す */
-${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
-        @top-left { content: "${value}"; }
-        @top-right { content: "${value}"; }
-    }
-`).join('\n')}</style>
-
-
-${entries.join('\n\n')}
-`, { encoding: 'utf-8' });
-
 function simple_entry(word, distinguisher, pmcp, pos, definition) {
     if (!pos_list.includes(pos)) {
         console.log(`Warning: ${pos} is not in pos_list.txt \n\t\t(Encountered in ${word}${distinguisher}, ${pmcp})`);
@@ -218,29 +148,76 @@ ${subentries.map(subentry => {
 </div>`;
 }
 
-`<div class="entry">
-    <span class="entry-word-ja" lang="ja">ディヤㇲ</span> <span class="entry-word-pmcp">dijac</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-ja" lang="ja">ディヤスィㇳ</span> <span class="sub-entry-word-pmcp">DIJACIT</span>
-        <span class="sub-entry-word-POS" lang="ja">[動詞]</span> <span class="sub-entry-definition" lang="ja">キャンセルする、無効とする</span><br>
-        <span class="sub-entry-word-ja" lang="ja">ディヤㇲレティ</span> <span class="sub-entry-word-pmcp">DIJACLETI</span>
-        <span class="sub-entry-word-POS" lang="ja">[動詞]</span> <span class="sub-entry-definition" lang="ja">無効な</span>
-    </div>
-</div>
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">ディンドゥン</span> <span class="entry-word-pmcp">dindun</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-POS" lang="ja">[動詞]</span> <span class="sub-entry-definition" lang="ja">ごちゃごちゃ</span><br>
-        <span class="sub-entry-word-ja" lang="ja">ディンドゥニㇳ</span> <span class="sub-entry-word-pmcp">DINDUN-IT</span>
-        <span class="sub-entry-word-POS" lang="ja">[他動詞]</span> <span class="sub-entry-definition" lang="ja">混ぜる、乱す、シャッフルする</span>
-    </div>
-</div>
+// --------------------------------------------------
+// | main ↓
+// --------------------------------------------------
 
-<div class="entry">
-    <span class="entry-word-ja" lang="ja">デシャペ</span> <span class="entry-word-pmcp">dexape</span><br>
-    <div class="sub-entry">
-        <span class="sub-entry-word-POS" lang="ja">[名詞]</span> <span class="sub-entry-definition" lang="ja">火</span><br>
-        <span class="sub-entry-word-POS" lang="ja">[動詞]</span> <span class="sub-entry-definition" lang="ja">燃やす、焼く</span><br>
-    </div>
-</div>`
+const pos_list = fs.readFileSync("pos_list.txt", { encoding: 'utf-8' })
+    .split(/\r?\n/);
+
+function build(行) {
+    const guide_words = JSON.parse(fs.readFileSync(`GUIDE_WORDS_${行}.json`, { encoding: 'utf-8' }));
+
+    const entries_array =
+        fs.readFileSync(`EDIT_ME_${行}.tsv`, { encoding: 'utf-8' })
+            .split(/\r?\n/).slice(1)
+            .map((row) => row.split('\t'))
+        ;
+
+
+    const grouped = group_asterisk(entries_array);
+    fs.writeFileSync(`__debug__grouped.jsonl`, grouped.map(JSON.stringify).join('\n'), { encoding: 'utf-8' });
+
+    const entries = grouped
+        .map((row) => {
+            if (!row.multiple) {
+                const [
+                    entry_word_ja, distinguisher, entry_word_pmcp, sub_entry_word_ja, sub_entry_word_pmcp, entry_pos, entry_definition, line_break_after_pos] = row;
+                if (sub_entry_word_ja === "" && sub_entry_word_pmcp === "") {
+                    return simple_entry(entry_word_ja, distinguisher, entry_word_pmcp, entry_pos, entry_definition);
+                } else {
+                    return entry_with_single_subentry(entry_word_ja, distinguisher, entry_word_pmcp, { word: sub_entry_word_ja, pmcp: sub_entry_word_pmcp, pos: entry_pos }, entry_definition, line_break_after_pos !== "false");
+                }
+            } else {
+                const { word, distinguisher, pmcp, subentries } = row;
+                return entry_with_multiple_subentries(word, distinguisher, pmcp, subentries.map(subentry => {
+                    const [subentry_word_ja, subentry_word_pmcp, subentry_pos, subentry_definition] = subentry;
+                    return { word: subentry_word_ja, pmcp: subentry_word_pmcp, pos: subentry_pos, definition: subentry_definition };
+                }));
+            }
+        });
+
+    fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common.css">
+
+<style>
+    @page:left { 
+        background-image: url("爪見出し/${行}_left.png");
+        background-size: 472px 665px;
+        background-repeat: no-repeat;
+        @top-left { font-family: "M+ 1p Heavy"; font-size: 14pt; } /* 左ページでは左の柱見出しのみ */
+        @top-right { font-family: "M+ 1p Heavy"; font-size: 0pt; }
+    }
+
+    @page:right { 
+        background-image: url("爪見出し/${行}_right.png");
+        background-size: 472px 665px;
+        background-repeat: no-repeat;
+        @top-left { font-family: "M+ 1p Heavy"; font-size: 0pt; }
+        @top-right { font-family: "M+ 1p Heavy"; font-size: 14pt; }  /* 右ページでは右の柱見出しのみ */
+    }
+    
+    /* それぞれのページ指定では柱見出しを両側に指定しておき、上記ルールにより片方だけ潰す */
+${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
+        @top-left { content: "${value}"; }
+        @top-right { content: "${value}"; }
+    }
+`).join('\n')}</style>
+
+
+${entries.join('\n\n')}
+`, { encoding: 'utf-8' });
+
+}
+
+build("タ");
