@@ -88,6 +88,13 @@ function group_asterisk(entries_) {
     return entries_grouped;
 }
 
+function 墨付きカッコ書き換え(input_string) {
+    console.log(`墨付きカッコ書き換え("${input_string}")`);
+
+    const images = [... `{${input_string}}`].map((char) => `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`).join("");
+    return ` ${images}【${input_string}】`;
+}
+
 const grouped = group_asterisk(entries_array);
 fs.writeFileSync(`__debug__grouped.jsonl`, grouped.map(JSON.stringify).join('\n'), { encoding: 'utf-8' });
 
@@ -115,6 +122,7 @@ fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common
 <style>
     @page:left { 
         background-image: url("爪見出し/${行}_left.png");
+        background-size: 472px 665px;
         background-repeat: no-repeat;
         @top-left { font-family: "M+ 1p Heavy"; font-size: 14pt; } /* 左ページでは左の柱見出しのみ */
         @top-right { font-family: "M+ 1p Heavy"; font-size: 0pt; }
@@ -122,6 +130,7 @@ fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common
 
     @page:right { 
         background-image: url("爪見出し/${行}_right.png");
+        background-size: 472px 665px;
         background-repeat: no-repeat;
         @top-left { font-family: "M+ 1p Heavy"; font-size: 0pt; }
         @top-right { font-family: "M+ 1p Heavy"; font-size: 14pt; }  /* 右ページでは右の柱見出しのみ */
@@ -139,21 +148,30 @@ ${entries.join('\n\n')}
 `, { encoding: 'utf-8' });
 
 function simple_entry(word, distinguisher, pmcp, pos, definition) {
-    if (!pos_list.includes(pos)) { console.log(`Warning: ${pos} is not in pos_list.txt \n\t\t(Encountered in ${word}${distinguisher}, ${pmcp})`); }
+    if (!pos_list.includes(pos)) {
+        console.log(`Warning: ${pos} is not in pos_list.txt \n\t\t(Encountered in ${word}${distinguisher}, ${pmcp})`);
+    }
+
+    const definition_ = definition.replaceAll(/【([^【】]+)】/g, (_, p1) => 墨付きカッコ書き換え(p1));
+
     return `<div class="entry">
     <span class="entry-word-ja" lang="ja">${word}${distinguisher}</span> <span class="entry-word-pmcp">${pmcp}</span> <span
         class="entry-word-POS" lang="ja">[${pos}]</span><br>
-    <div class="definition" lang="ja">${definition}</div>
+    <div class="definition" lang="ja">${definition_}</div>
 </div>`;
 }
 
 function entry_with_single_subentry(word, distinguisher, pmcp, subentry, definition, line_break_after_pos = true) {
-    if (!pos_list.includes(subentry.pos)) { console.log(`Warning: ${subentry.pos} is not in pos_list.txt \n\t\t(Encountered in ${word}${distinguisher}, ${pmcp} --> ${subentry.word}, ${subentry.pmcp})`); }
+    if (!pos_list.includes(subentry.pos)) {
+        console.log(`Warning: ${subentry.pos} is not in pos_list.txt \n\t\t(Encountered in ${word}${distinguisher}, ${pmcp} --> ${subentry.word}, ${subentry.pmcp})`);
+    }
+
+    const definition_ = definition.replaceAll(/【([^【】]+)】/g, (_, p1) => 墨付きカッコ書き換え(p1));
     return `<div class="entry">
     <span class="entry-word-ja" lang="ja">${word}${distinguisher}</span> <span class="entry-word-pmcp">${pmcp}</span><br>
     <div class="sub-entry">
         <span class="sub-entry-word-ja" lang="ja">${subentry.word}</span> <span class="sub-entry-word-pmcp">${subentry.pmcp}</span>
-        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span>${line_break_after_pos ? '<br>' : ' '}<span class="sub-entry-definition" lang="ja">${definition}</span>
+        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span>${line_break_after_pos ? '<br>' : ' '}<span class="sub-entry-definition" lang="ja">${definition_}</span>
     </div>
 </div>`;
 }
@@ -171,8 +189,11 @@ ${subentries.map(subentry => {
             /* 直前の見出し語にぶら下がり、音写と PMCP の欄なしで掲載 */
             return `        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${subentry.definition}</span><br>`;
         }
+
+        const definition_ = subentry.definition.replaceAll(/【([^【】]+)】/g, (_, p1) => 墨付きカッコ書き換え(p1));
+
         return `        <span class="sub-entry-word-ja" lang="ja">${subentry.word}</span> <span class="sub-entry-word-pmcp">${subentry.pmcp}</span>
-        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${subentry.definition}</span><br>`;
+        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${definition_}</span><br>`;
     }
     ).join('\n')}
     </div>

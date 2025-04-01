@@ -17,6 +17,11 @@
     font-family: "acil_lujot";
 }
 
+.linzklar_rounded_glyph {
+    height: 0.932em;
+    vertical-align: -0.09em;
+}
+
 .entry-word-POS {
     /* 親見出し（品詞） */
     font-size: calc(9pt * var(--scale));
