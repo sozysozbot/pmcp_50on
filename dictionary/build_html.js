@@ -36,7 +36,7 @@ function group_asterisk(entries_) {
                 };
             } else if (current_grouping.word === entry[0]
                 && current_grouping.distinguisher === entry[1].slice(1) // Remove the asterisk
-                && current_grouping.pmcp === entry[2]) {
+                && current_grouping.pmcp.toLowerCase() === entry[2].toLowerCase()) {
                 // Add to the current grouping
                 current_grouping.subentries.push(entry.slice(3));
             } else {
@@ -224,3 +224,4 @@ ${entries.join('\n\n')}
 
 build("タ");
 build("ナ");
+build("ハ");
