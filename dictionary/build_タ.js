@@ -61,27 +61,18 @@ const entries_array = [
     ["ティペㇲ", "", "tipec", "", "", "名詞", "斜め", ""],
     ["ティペセン", "", "tipecen", "", "", "動詞", "斜めである", ""],
     ["ティミベ", "", "timibe", "", "", "名詞", "マフィア", ""],
-    {
-        multiple: true, word: "ディヤㇲ", distinguisher: "", pmcp: "dijac",
-        subentries: [["ディヤスィㇳ", "DIJACIT", "動詞", "キャンセルする、無効とする", ""],
-        ["ディヤㇲレティ", "dijacleti", "動詞", "無効な", ""]]
-    },
+    ["ディヤㇲ", "*", "dijac", "ディヤスィㇳ", "DIJACIT", "動詞", "キャンセルする、無効とする", ""],
+    ["ディヤㇲ", "*", "dijac", "ディヤㇲレティ", "dijacleti", "動詞", "無効な", ""],
     ["ティユナ", "", "tijuna", "", "", "名詞", "左", ""],
     ["ディユナムㇽ", "", "dijunamul", "", "", "名詞", "ヘルメット", ""],
     ["ディユナㇽ", "", "dijunal", "", "", "名詞", "頭", ""],
     ["ディㇽ", "", "dil", "ディリㇳ", "DIL-IT", "他動詞", "刺す", ""],
-    {
-        multiple: true, word: "ディンドゥン", distinguisher: "", pmcp: "dindun",
-        subentries: [["", "", "動詞", "ごちゃごちゃ", ""],
-        ["ディンドゥニㇳ", "DINDUN-IT", "他動詞", "混ぜる、乱す、シャッフルする", ""]]
-    },
+    ["ディンドゥン", "*", "dindun", "", "", "動詞", "ごちゃごちゃ", ""],
+    ["ディンドゥン", "*", "dindun", "ディンドゥニㇳ", "DINDUN-IT", "他動詞", "混ぜる、乱す、シャッフルする", ""],
     ["テㇰ", "", "tek", "", "", "名詞", "合計、和", ""],
     ["デㇰタㇷ゚", "", "dektap", "", "", "人名", "デクタプ、デクタフ（人名）", ""],
-    {
-        multiple: true, word: "デシャペ", distinguisher: "", pmcp: "dexape",
-        subentries: [["", "", "名詞", "火", ""],
-        ["", "", "動詞", "燃やす、焼く", ""]]
-    },
+    ["デシャペ", "*", "dexape", "", "", "名詞", "火", ""],
+    ["デシャペ", "*", "dexape", "", "", "動詞", "燃やす、焼く", ""],
     ["デシャモセㇽ", "", "dexamocel", "", "", "名詞", "コスト", ""],
     ["テショㇲ", "", "texoc", "", "", "動詞", "寝る", ""],
     ["テショスィㇽ", "", "texocil", "", "", "名詞", "夜", ""],
@@ -139,12 +130,79 @@ const entries_array = [
     ["トリㇳ", "", "tolit", "", "", "名詞", "朝", ""],
     ["ドルメン", "", "dolumen", "", "", "形容詞", "穢れた", ""]];
 
-/*entries_tsv
-    .map(entry => entry.split('\t'));
+function group_asterisk(entries_) {
+    /*
+    Replace the sequence of entries
 
-fs.writeFileSync(`foo.json`, JSON.stringify(entries_array), { encoding: 'utf-8' });*/
+    ...
+    ["ディヤㇲ","*","dijac","ディヤスィㇳ","DIJACIT","動詞","キャンセルする、無効とする",""],
+    ["ディヤㇲ","*","dijac","ディヤㇲレティ","dijacleti","動詞","無効な",""],
+    ...
 
-const entries = entries_array
+    with a single entry with multiple subentries. Remove the preceding asterisk in the distinguisher.
+
+    ...
+    {
+        multiple: true, 
+        word: "ディヤㇲ", distinguisher: "", pmcp: "dijac",
+        subentries: [["ディヤスィㇳ", "DIJACIT", "動詞", "キャンセルする、無効とする", ""],
+        ["ディヤㇲレティ", "dijacleti", "動詞", "無効な", ""]]
+    }
+    */
+
+    const entries_grouped = [];
+    let current_grouping = null;
+    for (const entry of entries_) {
+        if (entry[1].startsWith("*")) {
+            // This is a groupable row
+            // Either start a new grouping or add to the current one
+            if (!current_grouping) {
+                // Start a new grouping
+                current_grouping = {
+                    multiple: true,
+                    word: entry[0],
+                    distinguisher: entry[1].slice(1), // Remove the asterisk
+                    pmcp: entry[2],
+                    subentries: [entry.slice(3)]
+                };
+            } else if (current_grouping.word === entry[0]) {
+                // Add to the current grouping
+                current_grouping.subentries.push(entry.slice(3));
+            } else {
+                // End the current grouping and start a new one
+                entries_grouped.push(current_grouping);
+
+                // Start a new grouping
+                current_grouping = {
+                    multiple: true,
+                    word: entry[0],
+                    distinguisher: entry[1].slice(1), // Remove the asterisk
+                    pmcp: entry[2],
+                    subentries: [entry.slice(3)]
+                };
+            }
+        } else {
+            // This is a non-groupable row
+            if (current_grouping) {
+                // End the current grouping
+                entries_grouped.push(current_grouping);
+                current_grouping = null;
+            }
+            // Add the non-groupable row to the result
+            entries_grouped.push(entry);
+        }
+    }
+    if (current_grouping) {
+        // End the last grouping
+        entries_grouped.push(current_grouping);
+    }
+    return entries_grouped;
+}
+
+const grouped = group_asterisk(entries_array);
+fs.writeFileSync(`__debug__grouped.json`, JSON.stringify(grouped), { encoding: 'utf-8' });
+
+const entries = grouped
     .map((row) => {
         if (!row.multiple) {
             const [
