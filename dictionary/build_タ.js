@@ -90,16 +90,26 @@ function group_asterisk(entries_) {
 
 function 墨付きカッコ書き換え(input_string) {
     console.log(`墨付きカッコ書き換え("${input_string}")`);
-
-    const images = [... `(${input_string})`].map((char) => `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`).join("");
+    const images = [... `(${input_string})`].map(get_linzklar_rounded).join("");
     return ` ${images}【${input_string}】`;
 }
 
 function 白抜きカッコ書き換え(input_string) {
     console.log(`白抜きカッコ書き換え("${input_string}")`);
-
-    const images = [... `[${input_string}]`].map((char) => char.trim() === "" ? " " : `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`).join("");
+    const images = [... `[${input_string}]`].map(get_linzklar_rounded).join("");
     return ` ${images}`;
+}
+
+function get_linzklar_rounded(char) {
+    if (char.trim() === "") { return " "; }
+
+    // warn if the image path does not exist
+    const image_path = `linzklar_rounded_fixed_svgs/${char}.svg`;
+
+    if (!fs.existsSync("vivliostyle/" + image_path)) {
+        console.log(`Warning: ${image_path} does not exist`);
+    }
+    return `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`;
 }
 
 const grouped = group_asterisk(entries_array);
@@ -194,7 +204,7 @@ ${subentries.map(subentry => {
         }
 
         const definition_ = subentry.definition.replaceAll(/【([^【】]+)】/g, (_, p1) => 墨付きカッコ書き換え(p1)).replaceAll(/〖([^〖〗]+)〗/g, (_, p1) => 白抜きカッコ書き換え(p1));
-        
+
         if (subentry.word === "" && subentry.pmcp === "") {
             /* 直前の見出し語にぶら下がり、音写と PMCP の欄なしで掲載 */
             return `        <span class="sub-entry-word-POS" lang="ja">[${subentry.pos}]</span> <span class="sub-entry-definition" lang="ja">${definition_}</span><br>`;
