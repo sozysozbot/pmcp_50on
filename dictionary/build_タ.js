@@ -10,7 +10,7 @@ const guide_words = {
 };
 
 const entries_array =
-    fs.readFileSync("entries.tsv", { encoding: 'utf-8' })
+    fs.readFileSync("EDIT_ME.tsv", { encoding: 'utf-8' })
         .split(/\r?\n/).slice(1)
         .map((row) => row.split('\t'))
         ;
