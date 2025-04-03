@@ -89,6 +89,11 @@ function get_linzklar_rounded(char) {
     if (!fs.existsSync("vivliostyle/" + image_path)) {
         console.log(`Warning: ${image_path} does not exist`);
     }
+
+    if (fs.readFileSync("vivliostyle/" + image_path, { encoding: 'utf-8' }).includes("M46.989 25.157 C 40.310 26.523,34.197 31.379,30.113 38.560 L 26.667 44.621 26.667 500.808")) {
+        console.log(`Warning: ${image_path} is a dummy glyph`);
+    }
+
     return `<img src="linzklar_rounded_fixed_svgs/${char}.svg" class="linzklar_rounded_glyph">`;
 }
 
