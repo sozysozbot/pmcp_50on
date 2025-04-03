@@ -71,13 +71,11 @@ function group_asterisk(entries_) {
 }
 
 function 墨付きカッコ書き換え(input_string) {
-    console.log(`墨付きカッコ書き換え("${input_string}")`);
     const images = [... `(${input_string})`].map(get_linzklar_rounded).join("");
     return ` ${images}【${input_string}】`;
 }
 
 function 白抜きカッコ書き換え(input_string) {
-    console.log(`白抜きカッコ書き換え("${input_string}")`);
     const images = [... `${input_string}`].map(get_linzklar_rounded).join("");
     return ` ${images}`;
 }
@@ -227,3 +225,4 @@ build("ナ");
 build("ハ");
 build("マ");
 build("ヤ");
+build("ラ");
