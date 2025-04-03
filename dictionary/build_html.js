@@ -220,6 +220,8 @@ ${entries.join('\n\n')}
 
 }
 
+build("カ");
+
 build("タ");
 build("ナ");
 build("ハ");
