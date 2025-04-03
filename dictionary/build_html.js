@@ -207,8 +207,8 @@ function build(行) {
     
     /* それぞれのページ指定では柱見出しを両側に指定しておき、上記ルールにより片方だけ潰す */
 ${Object.entries(guide_words).map(([key, value]) => `    @page:nth(${key}) {
-        @top-left { content: "${value}"; }
-        @top-right { content: "${value}"; }
+        @top-left { content: "${value.left}"; }
+        @top-right { content: "${value.right}"; }
     }
 `).join('\n')}</style>
 
