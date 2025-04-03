@@ -77,7 +77,7 @@ function 墨付きカッコ書き換え(input_string) {
 
 function 白抜きカッコ書き換え(input_string) {
     const images = [... `${input_string}`].map(get_linzklar_rounded).join("");
-    return ` ${images}`;
+    return `${images}`;
 }
 
 function get_linzklar_rounded(char) {
