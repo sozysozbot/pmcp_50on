@@ -16,7 +16,7 @@ const vivliostyleConfig = {
     //   theme: '@vivliostyle/theme-whatever' // theme can be set individually. default to root 'theme'
     // },
     'カ.html',
-
+    'サ.html',
     'タ.html',
     'ナ.html',
     'ハ.html',
