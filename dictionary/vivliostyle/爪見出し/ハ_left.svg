@@ -28,7 +28,7 @@
      inkscape:document-units="mm"
      inkscape:zoom="4.3455595"
      inkscape:cx="29.570416"
-     inkscape:cy="295.12886"
+     inkscape:cy="358.18173"
      inkscape:window-width="1280"
      inkscape:window-height="729"
      inkscape:window-x="-8"
@@ -357,36 +357,32 @@
   <g
      id="g312"
      transform="translate(0,-3)">
-    <g
-       id="g4"
-       transform="translate(0,31.4092)">
-      <rect
-         style="fill:#000000;stroke:none;stroke-width:0.199521;stroke-opacity:1;paint-order:fill markers stroke"
-         id="rect2"
-         width="9.9002113"
-         height="15.7046"
-         x="0"
-         y="57.114304" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.98031px;line-height:0.5;font-family:'M+ 1p';-inkscape-font-specification:'M+ 1p Heavy';letter-spacing:0px;fill:#ffffff;stroke:none;stroke-width:1.19215;stroke-opacity:1;paint-order:fill markers stroke"
+    <rect
+       style="fill:#000000;stroke:none;stroke-width:0.199521;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect2"
+       width="9.9002113"
+       height="15.7046"
+       x="0"
+       y="88.523506" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:6.98031px;line-height:0.5;font-family:'M+ 1p';-inkscape-font-specification:'M+ 1p Heavy';letter-spacing:0px;fill:#ffffff;stroke:none;stroke-width:1.19215;stroke-opacity:1;paint-order:fill markers stroke"
+       x="1.5681455"
+       y="96.684601"
+       id="text3"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'M+ 1p';-inkscape-font-specification:'M+ 1p Heavy';fill:#ffffff;stroke-width:1.19215"
          x="1.5681455"
-         y="65.275398"
-         id="text3"><tspan
-           id="tspan3"
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'M+ 1p';-inkscape-font-specification:'M+ 1p Heavy';fill:#ffffff;stroke-width:1.19215"
-           x="1.5681455"
-           y="65.275398">ハ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0.5;font-family:xedixel;-inkscape-font-specification:xedixel;letter-spacing:0px;fill:#ffffff;stroke:none;stroke-width:0.723;stroke-opacity:1;paint-order:fill markers stroke"
-         x="2.5180564"
-         y="70.294762"
-         id="text4"><tspan
-           id="tspan4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:xedixel;-inkscape-font-specification:xedixel;stroke-width:0.723"
-           x="2.5180564"
-           y="70.294762">p b</tspan></text>
-    </g>
+         y="96.684601">ハ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:0.5;font-family:xedixel;-inkscape-font-specification:xedixel;letter-spacing:0px;fill:#ffffff;stroke:none;stroke-width:0.723;stroke-opacity:1;paint-order:fill markers stroke"
+       x="1.1083547"
+       y="101.70396"
+       id="text4"><tspan
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:xedixel;-inkscape-font-specification:xedixel;stroke-width:0.723"
+         x="1.1083547"
+         y="101.70396">p b h</tspan></text>
   </g>
 </svg>
