@@ -228,3 +228,4 @@ build("ハ");
 build("マ");
 build("ヤ");
 build("ラ");
+build("ワ");
