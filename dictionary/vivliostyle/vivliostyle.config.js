@@ -19,6 +19,7 @@ const vivliostyleConfig = {
     'ナ.html',
     'ハ.html',
     'マ.html',
+    'ヤ.html',
   ], // 'entry' can be 'string' or 'object' if there's only single markdown file
   // entryContext: './manuscripts', // default to '.' (relative to 'vivliostyle.config.js')
   output: [ "../nclc-leti-tectelit-leti-lukup-cet.pdf" ] // path to generate draft file(s). default to '{title}.pdf'

@@ -226,3 +226,4 @@ build("タ");
 build("ナ");
 build("ハ");
 build("マ");
+build("ヤ");
