@@ -225,6 +225,7 @@ ${entries.join('\n\n')}
 
 }
 
+build("ア");
 build("カ");
 build("サ");
 build("タ");
