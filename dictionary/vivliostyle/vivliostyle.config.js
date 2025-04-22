@@ -15,6 +15,7 @@ const vivliostyleConfig = {
     //   title: 'おわりに', // title can be overwritten (entry > file),
     //   theme: '@vivliostyle/theme-whatever' // theme can be set individually. default to root 'theme'
     // },
+    'index.html',
     'ア.html',
     'カ.html',
     'サ.html',

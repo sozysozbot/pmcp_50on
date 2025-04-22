@@ -7,8 +7,12 @@
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
   "name": "nclc-leti-tectelit-leti-lukup-cet",
   "author": "日本机戦連盟",
-  "dateModified": "2025-04-22T19:31:02.757Z",
+  "dateModified": "2025-04-22T19:44:23.804Z",
   "readingOrder": [
+    {
+      "url": "index.html",
+      "name": "nclc leti tectelit leti lukup cet"
+    },
     {
       "url": "%E3%82%A2.html",
       "name": "nclc-leti-tectelit-leti-lukup-cet"
