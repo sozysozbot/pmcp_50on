@@ -5,7 +5,7 @@ const vivliostyleConfig = {
   author: '日本机戦連盟', // default to 'author' in 'package.json' or undefined
   // language: 'la',
   // readingProgression: 'rtl', // reading progression direction, 'ltr' or 'rtl'.
-  size: 'B6',
+  size: 'JIS-B6',
   // theme: '', // .css or local dir or npm package. default to undefined
   image: 'ghcr.io/vivliostyle/cli:8.19.0',
   entry: [ // **required field**
