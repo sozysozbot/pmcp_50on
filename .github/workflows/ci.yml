@@ -74,7 +74,7 @@ jobs:
 
       - name: PDF の存在確認とアーティファクト登録
         run: |
-          if not exist "nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf" (
+          if not exist "dictionary\nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf" (
             echo PDF not found!
             exit /b 1
           )
@@ -84,5 +84,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pdf-output
-          path: nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf
+          path: dictionary\nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf
 
