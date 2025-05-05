@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: リポジトリのチェックアウト
+        uses: actions/checkout@v4
+
+      - name: fonts ディレクトリの作成
+        run: mkdir fonts
+
+      - name: Source Han Serif Heavy のダウンロード
+        run: |
+          curl -L -o fonts/SourceHanSerif-Heavy.otf "https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/Japanese/SourceHanSerif-Heavy.otf"
+
+      - name: Source Han Serif SemiBold のダウンロード
+        run: |
+          curl -L -o fonts/SourceHanSerif-SemiBold.otf "https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/Japanese/SourceHanSerif-SemiBold.otf"
+
+      - name: Source Han Serif Regular のダウンロード
+        run: |
+          curl -L -o fonts/SourceHanSerif-Regular.otf "https://github.com/adobe-fonts/source-han-serif/raw/release/OTF/Japanese/SourceHanSerif-Regular.otf"
+
+      - name: M+ 1p Heavy のダウンロード
+        run: |
+          curl -L -o fonts/Mplus1p-Heavy.ttf "https://github.com/rayshan/mplus-fonts/raw/refs/heads/master/fonts/mplus-1p-heavy.ttf"
+
+      - name: Xedixel のダウンロード
+        run: |
+          curl -L -o fonts/xedixel.ttf "https://github.com/yasusho/qafopwa_pmcp_font/raw/refs/heads/main/xedixel/xedixel.ttf"
+
+      - name: Acil Lujot のダウンロード
+        run: |
+          curl -L -o fonts/acil_lujot.ttf "https://github.com/yasusho/qafopwa_pmcp_font/raw/refs/heads/main/acil_lujot/acil_lujot.ttf"
+
+      - name: Linzklar Rounded のダウンロード
+        run: |
+          curl -L -o fonts/linzklar_rounded.ttf "https://github.com/yasusho/linmarn_font_project/raw/refs/heads/master/fonts/rounded/linzklar_rounded.ttf"
+
+      - name: フォントのインストールとレジストリ登録
+        shell: cmd
+        run: |
+          copy /Y fonts\*.otf C:\Windows\Fonts\
+          copy /Y fonts\*.ttf C:\Windows\Fonts\
+
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Source Han Serif Heavy (OpenType)" /t REG_SZ /d "SourceHanSerif-Heavy.otf" /f
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Source Han Serif SemiBold (OpenType)" /t REG_SZ /d "SourceHanSerif-Semibold.otf" /f
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Source Han Serif (OpenType)" /t REG_SZ /d "SourceHanSerif-Regular.otf" /f
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Mplus 1p Heavy (TrueType)" /t REG_SZ /d "Mplus1p-Heavy.ttf" /f
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Xedixel (TrueType)" /t REG_SZ /d "xedixel.ttf" /f
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Acil Lujot (TrueType)" /t REG_SZ /d "acil_lujot.ttf" /f
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Linzklar Rounded (TrueType)" /t REG_SZ /d "linzklar_rounded.ttf" /f
+
+      - name: Vivliostyle CLI のインストール
+        run: |
+          npm install --no-save @vivliostyle/cli@8.20.0 --force
+
+      - name: ビルドスクリプトの実行
+        run: |
+          cd dictionary
+          node build_html.js
+
+      - name: Vivliostyle による PDF 出力
+        run: |
+          cd vivliostyle
+          npx vivliostyle build --log-level debug --timeout 240
+
+      - name: PDF の存在確認とアーティファクト登録
+        run: |
+          if not exist "nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf" (
+            echo PDF not found!
+            exit /b 1
+          )
+        shell: cmd
+
+      - name: アーティファクトとして PDF を保存
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-output
+          path: nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf
+
