@@ -69,7 +69,7 @@ jobs:
 
       - name: Vivliostyle による PDF 出力
         run: |
-          cd vivliostyle
+          cd dictionary\vivliostyle
           npx vivliostyle build --log-level debug --timeout 240
 
       - name: PDF の存在確認とアーティファクト登録
