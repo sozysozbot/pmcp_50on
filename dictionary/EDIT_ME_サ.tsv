@@ -26,7 +26,6 @@
 シェㇷ゚レシュㇳ		XEPLEXUT			名詞	親指	
 シェペㇲネ		xepecne			名詞	大きさ	
 シェㇽ	*	xel			名詞	視線、（駒の）効き	
-シェㇽ	*	xel			動詞	見る	
 シェㇽ	*	xel	シェリㇳ	XELIT	他動詞	～を見る	
 シェㇽ	*	xel	シェリㇳ トゥデ	XELIT TUDE	他動詞	～を調べる	
 シェㇽ	*	xel	シェリㇳ キイェ	XELIT KIJE	他動詞	～を発見する	
@@ -71,7 +70,7 @@
 ス	*	cu	スイㇳ キイェ	cuit kije	他動詞	売る	
 ス	*	cu	スイㇳ トゥデ	cuit tude	他動詞	買う	
 スィ		ci			名詞	それ、かれ、あれ	
-スィキナ		CIKINA			動詞	（困難を）避ける	
+スィキナイㇳ		CIKINAIT			他動詞	～（困難）を避ける	
 スィキリオティイェ		cikiliotije			名詞	スキュリオーティエ叙事詩（著名な叙事詩）	
 スィㇰ		cik			後置助動詞	～やすい、簡単に	
 スィケセン		CIKECEN			名詞	端、終点	
@@ -81,7 +80,7 @@
 スィテン		CITEN	スィテンレティ	CITENLETI	形容詞	孤独な、一人の	
 スィヌㇰ		cinuk			名詞	キク（菊）	
 スィポト		CIPOTO			名詞	あっち側、あちら、そっち側、そちら	
-スィユユㇲテリㇳ		cijujuctelit			動詞	集める、収集する	
+スィユユㇲテリㇳ		cijujuctelit			他動詞	～を集める、～を収集する	
 スィラ	*	cila			名詞	真実、事実	
 スィラ	*	cila			間投詞	本当に（文の内容を強調する語）	
 スィラ	*	cila	スィラ スィラ	cila-cila	間投詞	なるほど	
@@ -95,7 +94,7 @@
 ススィタㇽ		CUCITAL			名詞	中央	
 ススィㇳ	¹	cucit			名詞	虎	
 ススィㇳ	²	cucit			名詞	中央	
-スㇲトㇳ		cuctot			動詞	妨害する、妨げる、邪魔をする	
+スㇲトティㇳ		cuctotit			他動詞	～を妨害する、～を妨げる、～を邪魔する	
 スㇲニㇳ		CUCNIT			他動詞	～を掛け算する	
 スㇲニヤマㇲ		cucnijamac			名詞	掛け算	
 スㇲペツェン		cucpezen			名詞	直線	
@@ -141,12 +140,13 @@
 セㇷ゚		cep			名詞	政府、省	
 セㇷ゚クランテ		cepkulante			名詞	ルールブック、ルール	
 セㇷ゚ラタ		CEPLATA			名詞	役人	
-セモコ		cemoko			動詞	踏越えする（セッカイク）	
+セモコ	*	cemoko			名詞	踏越え（セッカイク）	
+セモコ	*	cemoko			動詞	踏越えする（セッカイク）	
+セモコ	*	cemoko	セモコイㇳ	cemokoit	他動詞	～を踏越えする（セッカイク）	
 セラ		cela			名詞	構造	
 セラユムㇲ		CELAJUMUC			名詞	工事	
 セルㇷ゚		CELUP			名詞	肩	
 セルン		CELUN			名詞	子供	
-セレㇲ		celec			動詞	～させる	
 セレㇲタㇽ		celectal			名詞	一方、片方	
 セレネ		celene			前置助動詞	～したい、～したがる	
 ソ	*	co			名詞	あなた	
