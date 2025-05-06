@@ -5,53 +5,53 @@
   ],
   "type": "Book",
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
-  "name": "nclc-leti-tectelit-leti-lukup-cet",
+  "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet",
   "author": "日本机戦連盟",
-  "dateModified": "2025-05-04T07:11:54.672Z",
+  "dateModified": "2025-05-06T14:36:19.238Z",
   "readingOrder": [
     {
       "url": "index.html",
-      "name": "nclc leti tectelit leti lukup cet"
+      "name": "nclc leti tectelit leti pmcp lukup cet"
     },
     {
       "url": "%E3%82%A2.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%82%AB.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%82%B5.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%82%BF.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%83%8A.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%83%8F.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%83%9E.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%83%A4.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%83%A9.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
       "url": "%E3%83%AF.html",
-      "name": "nclc-leti-tectelit-leti-lukup-cet"
+      "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     }
   ],
   "resources": [],
