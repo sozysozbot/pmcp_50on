@@ -30,7 +30,7 @@
 ["パㇽビティシュモ","","PALBITIXUMO","","","名詞","経路",""]
 ["パㇽベㇽタ","","palbelta","","","名詞","バージョン",""]
 {"multiple":true,"word":"パン","distinguisher":"","pmcp":"pan","subentries":[["","","前置助動詞","一人で、単独で、孤立して",""],["パニㇳ","panit","他動詞","統一する",""],["パンレティ","panleti","数詞","一つの",""],["パンレティ","panleti","形容詞","同じ",""]]}
-{"multiple":true,"word":"パンカ","distinguisher":"","pmcp":"panka","subentries":[["","","動詞","良い",""],["","","前置助動詞","うまく",""]]}
+{"multiple":true,"word":"パンカ","distinguisher":"","pmcp":"panka","subentries":[["","","動詞","良い",""],["","","前置助動詞","うまく",""],["パンカレティ","pankaleti","形容詞","良い",""]]}
 {"multiple":true,"word":"パンキヤ","distinguisher":"","pmcp":"PANKIJA","subentries":[["","","動詞","梱包をほどく",""],["","","名詞","梱包ほどき、開封",""]]}
 ["パンシェン","","PANXEN","","","形容詞","ずさんな",""]
 {"multiple":true,"word":"パンシェンソ","distinguisher":"","pmcp":"PANXENCO","subentries":[["","","名詞","乱数",""],["","","前置助動詞","ずさんに",""]]}
