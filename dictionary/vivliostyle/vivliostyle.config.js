@@ -16,16 +16,16 @@ const vivliostyleConfig = {
     //   theme: '@vivliostyle/theme-whatever' // theme can be set individually. default to root 'theme'
     // },
     'index.html',
-    'ア.html',
-    'カ.html',
-    'サ.html',
-    'タ.html',
-    'ナ.html',
-    'ハ.html',
-    'マ.html',
-    'ヤ.html',
-    'ラ.html',
-    'ワ.html',
+    '5_01_ア.html',
+    '5_02_カ.html',
+    '5_03_サ.html',
+    '5_04_タ.html',
+    '5_05_ナ.html',
+    '5_06_ハ.html',
+    '5_07_マ.html',
+    '5_08_ヤ.html',
+    '5_09_ラ.html',
+    '5_10_ワ.html',
   ], // 'entry' can be 'string' or 'object' if there's only single markdown file
   // entryContext: './manuscripts', // default to '.' (relative to 'vivliostyle.config.js')
   output: [ "../nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf" ] // path to generate draft file(s). default to '{title}.pdf'

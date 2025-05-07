@@ -7,50 +7,50 @@
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
   "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet",
   "author": "日本机戦連盟",
-  "dateModified": "2025-05-06T15:13:50.730Z",
+  "dateModified": "2025-05-07T02:26:18.674Z",
   "readingOrder": [
     {
       "url": "index.html",
       "name": "nclc leti tectelit leti pmcp lukup cet"
     },
     {
-      "url": "%E3%82%A2.html",
+      "url": "5_01_%E3%82%A2.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%82%AB.html",
+      "url": "5_02_%E3%82%AB.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%82%B5.html",
+      "url": "5_03_%E3%82%B5.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%82%BF.html",
+      "url": "5_04_%E3%82%BF.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%83%8A.html",
+      "url": "5_05_%E3%83%8A.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%83%8F.html",
+      "url": "5_06_%E3%83%8F.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%83%9E.html",
+      "url": "5_07_%E3%83%9E.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%83%A4.html",
+      "url": "5_08_%E3%83%A4.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%83%A9.html",
+      "url": "5_09_%E3%83%A9.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     },
     {
-      "url": "%E3%83%AF.html",
+      "url": "5_10_%E3%83%AF.html",
       "name": "nclc-leti-tectelit-leti-pmcp-lukup-cet"
     }
   ],

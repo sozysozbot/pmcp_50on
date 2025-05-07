@@ -159,7 +159,7 @@ ${subentries.map(subentry => {
 const pos_list = fs.readFileSync("pos_list.txt", { encoding: 'utf-8' })
     .split(/\r?\n/);
 
-function build(行) {
+function build(行, file_name_prefix) {
     const guide_words = JSON.parse(fs.readFileSync(`GUIDE_WORDS_${行}.json`, { encoding: 'utf-8' }));
 
     const entries_array =
@@ -191,7 +191,7 @@ function build(行) {
             }
         });
 
-    fs.writeFileSync(`vivliostyle/${行}.html`, `<link rel="stylesheet" href="common.css">
+    fs.writeFileSync(`vivliostyle/${file_name_prefix}_${行}.html`, `<link rel="stylesheet" href="common.css">
 
 <style>
     @page:left { 
@@ -225,13 +225,13 @@ ${entries.join('\n\n')}
 
 }
 
-build("ア");
-build("カ");
-build("サ");
-build("タ");
-build("ナ");
-build("ハ");
-build("マ");
-build("ヤ");
-build("ラ");
-build("ワ");
+build("ア", "5_01");
+build("カ", "5_02");
+build("サ", "5_03");
+build("タ", "5_04");
+build("ナ", "5_05");
+build("ハ", "5_06");
+build("マ", "5_07");
+build("ヤ", "5_08");
+build("ラ", "5_09");
+build("ワ", "5_10");
