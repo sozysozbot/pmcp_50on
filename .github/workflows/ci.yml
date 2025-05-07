@@ -65,7 +65,7 @@ jobs:
       - name: ビルドスクリプトの実行
         run: |
           cd dictionary
-          node build_html.js
+          node build_pmcp.js
 
       - name: Vivliostyle による PDF 出力
         run: |

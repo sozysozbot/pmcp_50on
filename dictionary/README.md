@@ -3,7 +3,7 @@
 ## 全体の流れ
 
 - `EDIT_ME_タ.tsv` にタ行の語について書く
-- `node build_html.js` により、`vivliostyle/タ.html` を作る
+- `node build_pmcp.js` により、`vivliostyle/タ.html` を作る
 - `cd vivliostyle; npx vivliostyle build -m` により、`nclc-leti-tectelit-leti-pmcp-lukup-cet.pdf` が出来上がる。トリムマークが要らないなら `-m` を削る。
 - 満足したら、柱見出しを手動で割り当てるために `GUIDE_WORDS_タ.json` を編集し、ビルド作業をもう一度行う
 
