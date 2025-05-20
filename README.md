@@ -22,7 +22,7 @@ pemecepe lujot を日本語話者に効率的に教えるための 50 音表
 
 ![](./40_most_important/char=latin,lang=ja.png)
 
-## 50 音順辞書（未完成）
+## 50 音順辞書（別リポジトリに移管）
 
 ### 大まかなデザイン
 
@@ -30,4 +30,4 @@ pemecepe lujot を日本語話者に効率的に教えるための 50 音表
 
 ### 実装
 
-Vivliostyle で CSS 組版をする。作業フォルダは `dictionary/`
+Vivliostyle で CSS 組版をする。2025年5月7日に https://github.com/sozysozbot/linzklar_and_pmcp_paper_dictionary に移管
