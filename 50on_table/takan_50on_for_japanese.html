@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>タカン文字による五十音表</title>
+</head>
+<style>
+  table {
+    border-collapse: collapse;
+  }
+
+  td {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+
+  @font-face {
+    font-family: "ycaxen";
+    src: url("https://meloviliju.github.io/ycaxen/medium/ycaxen-medium.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: 'rounded';
+    src: url("https://yasusho.github.io/linmarn_font_project/fonts/rounded/linzklar_rounded.woff");
+  }
+
+  @font-face {
+    font-family: 'cumamuka';
+    src: url("https://yasusho.github.io/linmarn_font_project/fonts/cumamuka/linzklar_cumamuka.woff");
+  }
+
+  .pmcp {
+    font-family: "cumamuka";
+    font-size: 150%;
+  }
+
+  .rare {
+    color: hsl(0, 0%, 90%);
+  }
+
+  .glyph-combo {
+    display: inline-flex;
+    align-items: baseline;
+    font-family: "cumamuka";
+    line-height: 1;
+  }
+
+  .main {
+    display: inline-block;
+  }
+
+  .right-half {
+    display: inline-block;
+    width: 0.35em;
+    overflow: hidden;
+    vertical-align: baseline;
+  }
+
+  .cut-glyph {
+    display: inline-block;
+    transform: translateX(-0.65em);
+  }
+</style>
+
+<body style="font-family: serif;">
+  <div style="width: 487px;">
+    <div style="font-size: 142%; font-weight: bold;">日本語話者のためのタカン文字による五十音表</div>
+    <div style="text-align: right; padding-right: 5px; padding-bottom: 5px;">アイル共和国文化省対外広報処日本語部署および日本机戦連盟</div>
+    <div style="text-align: right; padding-right: 5px; padding-bottom: 5px; font-family: 'rounded';">
+      冠国地心集目外御広処言将言片　加　言将机戦人等</div>
+    <table>
+      <tr>
+        <td>ワ<br><span class="pmcp">わ</span></td>
+        <td>ラ<br><span class="pmcp">ら</span></td>
+        <td>ヤ<br><span class="pmcp">や</span></td>
+        <td>マ<br><span class="pmcp">ま</span></td>
+        <td>ナ<br><span class="pmcp">な</span></td>
+        <td>タ<br><span class="pmcp">た</span></td>
+        <td>サ<br><span class="pmcp">さ</span></td>
+        <td>カ<br><span class="pmcp">か</span></td>
+        <td>ア<br><span class="pmcp">あ</span></td>
+      </tr>
+      <tr>
+        <td>ウィ<br><span class="pmcp">ゐ</span></td>
+        <td>リ<br><span class="pmcp">り</span></td>
+        <td></td>
+        <td>ミ<br><span class="pmcp">み</span></td>
+        <td>ニ<br><span class="pmcp">に</span></td>
+        <td>チ<br><span class="pmcp">ち</span></td>
+        <td>シ<br><span class="pmcp">し</span></td>
+        <td>キ<br><span class="pmcp">き</span></td>
+        <td>イ<br><span class="pmcp">い</span></td>
+
+      </tr>
+      <tr>
+        <td></td>
+        <td>ル<br><span class="pmcp">る</span></td>
+        <td>ユ<br><span class="pmcp">ゆ</span></td>
+        <td>ム<br><span class="pmcp">む</span></td>
+        <td>ヌ<br><span class="pmcp">ぬ</span></td>
+        <td>ツ<br><span class="pmcp">つ</span></td>
+        <td>ス<br><span class="pmcp">す</span></td>
+        <td>ク<br><span class="pmcp">く</span></td>
+        <td>ウ<br><span class="pmcp">う</span></td>
+      </tr>
+      <tr>
+        <td>ウェ<br><span class="pmcp">ゑ</span></td>
+        <td>レ<br><span class="pmcp">れ</span></td>
+        <td></td>
+        <td>メ<br><span class="pmcp">め</span></td>
+        <td>ネ<br><span class="pmcp">ね</span></td>
+        <td>テ<br><span class="pmcp">て</span></td>
+        <td>セ<br><span class="pmcp">せ</span></td>
+        <td>ケ<br><span class="pmcp">け</span></td>
+        <td>エ<br><span class="pmcp">え</span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>ロ<br><span class="pmcp">ろ</span></td>
+        <td>ヨ<br><span class="pmcp">よ</span></td>
+        <td>モ<br><span class="pmcp">も</span></td>
+        <td>ノ<br><span class="pmcp">の</span></td>
+        <td>ト<br><span class="pmcp">と</span></td>
+        <td>ソ<br><span class="pmcp">そ</span></td>
+        <td>コ<br><span class="pmcp">こ</span></td>
+        <td>オ<br><span class="pmcp">お</span></td>
+      </tr>
+
+      <tr>
+        <td colspan="9" style="border-left: none; border-right: none;"></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+        <td>パ<br><span class="pmcp">ぱ</span></td>
+        <td>バ<br><span class="pmcp">ば</span></td>
+        <td>ダ<br><span class="pmcp">だ</span></td>
+        <td>ザ<br><span class="pmcp">ざ</span></td>
+        <td>ガ<br><span class="pmcp">が</span></td>
+        <td class="rare">ハ<br><span class="pmcp"><span class="glyph-combo">
+              <span class="main">あ</span>
+              <span class="right-half" style="margin-left: -0.19em;">
+                <span class="cut-glyph">だ</span>
+              </span>
+            </span></span></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+        <td>ピ<br><span class="pmcp">ぴ</span></td>
+        <td>ビ<br><span class="pmcp">び</span></td>
+        <td>ヂ<br><span class="pmcp">ぢ</span></td>
+        <td>ジ<br><span class="pmcp">じ</span></td>
+        <td>ギ<br><span class="pmcp">ぎ</span></td>
+        <td class="rare">ヒ<br><span class="pmcp"><span class="glyph-combo">
+              <span class="main">い</span>
+              <span class="right-half" style="margin-left: -0.35em;">
+                <span class="cut-glyph">だ</span>
+              </span>
+            </span></span></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+        <td>プ<br><span class="pmcp">ぷ</span></td>
+        <td>ブ<br><span class="pmcp">ぶ</span></td>
+        <td>ヅ<br><span class="pmcp">づ</span></td>
+        <td>ズ<br><span class="pmcp">ず</span></td>
+        <td>グ<br><span class="pmcp">ぐ</span></td>
+        <td class="rare">フ<br><span class="pmcp"><span class="glyph-combo">
+              <span class="main">う</span>
+              <span class="right-half" style="margin-left: -0.25em;">
+                <span class="cut-glyph">だ</span>
+              </span>
+            </span></span></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+        <td>ペ<br><span class="pmcp">ぺ</span></td>
+        <td>ベ<br><span class="pmcp">べ</span></td>
+        <td>デ<br><span class="pmcp">で</span></td>
+        <td>ゼ<br><span class="pmcp">ぜ</span></td>
+        <td>ゲ<br><span class="pmcp">げ</span></td>
+        <td class="rare">ヘ<br><span class="pmcp"><span class="glyph-combo">
+              <span class="main">え</span>
+              <span class="right-half" style="margin-left: -0.45em;">
+                <span class="cut-glyph">だ</span>
+              </span>
+            </span></span></td>
+      </tr>
+      <tr>
+        <td colspan="3"></td>
+        <td>ポ<br><span class="pmcp">ぽ</span></td>
+        <td>ボ<br><span class="pmcp">ぼ</span></td>
+        <td>ド<br><span class="pmcp">ど</span></td>
+        <td>ゾ<br><span class="pmcp">ぞ</span></td>
+        <td>ゴ<br><span class="pmcp">ご</span></td>
+        <td class="rare">ホ<br><span class="pmcp"><span class="glyph-combo">
+              <span class="main">お</span>
+              <span class="right-half" style="margin-left: -0.25em;">
+                <span class="cut-glyph">だ</span>
+              </span>
+            </span></span></td>
+      </tr>
+    </table>
+  </div>
+</body>
